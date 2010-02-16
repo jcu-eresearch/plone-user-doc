@@ -16,6 +16,7 @@ Contents:
    addedit
    managingcontent
    othercontent
+   collaboration
 
 Indices and tables
 ==================
