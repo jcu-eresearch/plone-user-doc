@@ -25,6 +25,7 @@ To enable comments for a single item
 .. image:: images/comments.png
    :alt: Add comments button
 
+
 Adding comments
 ---------------
 
