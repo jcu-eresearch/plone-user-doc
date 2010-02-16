@@ -3,16 +3,22 @@ Managing your content
 
 What is a workflow?
 ======================
-.. Workflows play an important role in your portal's security and control who can see a document.
+.. Workflows play an important role in your portal's security and control who
+   can see a document.
 
 Workflows and document publishing
 ---------------------------------
 
-A workflow is a process that your document passes through before it becomes available to others via the portal. This process ensures that content posted meets standards set by your administrator.\
+A workflow is a process that your document passes through before it becomes 
+available to others via the portal. This process ensures that content posted
+meets standards set by your administrator.
 
-When an item is first created, its state is **Private** .\Most users will require their documents be reviewed before they are published, requiring a section or site administrator to be part of the workflow.
+When an item is first created, its state is **Private** . Most users will
+require their documents be reviewed before they are published, requiring a 
+section or site administrator to be part of the workflow.
 
-At each point in the workflow your document will have a different state.\These states are listed below.
+At each point in the workflow your document will have a different state. 
+These states are listed below.
 
 +----------------------+------------------------------------------------------+
 | State                | Description                                          |
@@ -154,7 +160,8 @@ In order to upload a newer version of a file, you will need to edit that item.
 Granting access to your content
 ===============================
 
-.. Sometimes you'll want to give access to individuals or a group of users, rather than the whole Internet.
+.. Sometimes you'll want to give access to individuals or a group of users, 
+   rather than the whole Internet.
 
 You can choose to share your document with all logged in users or with a 
 particular person. Descriptions for how to set up each of these permissions 
@@ -225,9 +232,8 @@ Transfering multiple files from your computer to Plone
 ======================================================
 At times you may wish to upload multiple files to the portal.
 
-The easiest method for doing this is to install and setup a WebDAV client, the connection protocol that you can use to connect to the site from your desktop.\
+The easiest method for doing this is to install and setup a WebDAV client, the 
+connection protocol that you can use to connect to the site from your desktop.
 
-See one of the relevant tutorials for your operating system in `Usage Tutorials <resolveuid/5f66ce87d71439f43634dff9c774d7ff>`_ .
-
-\
-
+See one of the relevant tutorials for your operating system in 
+`Usage Tutorials <resolveuid/5f66ce87d71439f43634dff9c774d7ff>`_ .
