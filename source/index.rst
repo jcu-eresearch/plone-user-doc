@@ -14,6 +14,7 @@ Contents:
 
    basic
    addedit
+   managingcontent
 
 Indices and tables
 ==================
