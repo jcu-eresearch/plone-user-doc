@@ -235,5 +235,6 @@ At times you may wish to upload multiple files to the portal.
 The easiest method for doing this is to install and setup a WebDAV client, the 
 connection protocol that you can use to connect to the site from your desktop.
 
-See one of the relevant tutorials for your operating system in 
-`Usage Tutorials <resolveuid/5f66ce87d71439f43634dff9c774d7ff>`_ .
+.. TODO Currently commented out because the link is broken
+.. See one of the relevant tutorials for your operating system in 
+   `Usage Tutorials <resolveuid/5f66ce87d71439f43634dff9c774d7ff>`_ .

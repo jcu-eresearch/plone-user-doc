@@ -88,6 +88,7 @@ Enter the information for the content and click the **Save**  button.
 | Image Caption   | The text that will appear under the image              |
 +-----------------+--------------------------------------------------------+
 
+
 Adding Links
 ============
 
@@ -145,5 +146,4 @@ You can choose to make this folder public if you would like to share the data
 within it. This can be changed later if necessary.
 
 The same workflow associated with normal content applies to folders, so have 
-a look at `Creating public content <resolveuid/4d3d0463ad254057e777e3dbc54b2be4>`_ 
-to see how.
+a look at :ref:`creating-public-content` to see how.

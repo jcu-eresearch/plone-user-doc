@@ -128,7 +128,7 @@ Plone bar.
    * Buttons along the bottom of the table allow items to be copied, cut,
      renamed or deleted
    * The Change State button allows the document metadata to be updated.
-     See `Setting the document metadata`_ section for more info.
+     See :ref:`setting-the-document-metadata` section for more info.
 
 **View tab**
    * Shows a listing of the content arranged by Title
@@ -142,7 +142,7 @@ Plone bar.
 
 **Properties tab**
    * Allows the user to set/edit the metadata for this item. This is discussed
-     further in the `Setting advanced metadata properties`_ section.
+     further in the :ref:`setting-advanced-metadata-properties` section.
 
 **Sharing**
    * Allows the user to add users who can view this item. This is discussed
@@ -185,6 +185,8 @@ details regarding the files type, size and data modified are also listed.
    :alt: Download the file
 
 
+.. _setting-the-document-metadata:
+
 Setting the document metadata
 =============================
 
@@ -220,6 +222,8 @@ different content types in the system:
 |                      | made.                                                |
 +----------------------+------------------------------------------------------+
 
+
+.. _setting-advanced-metadata-properties:
 
 Setting advanced metadata properties
 ====================================
@@ -304,6 +308,7 @@ it'll appear.
 3. Create the page or content as usual
 4. Click onto the Save button to save your content.
 5. Click onto the **State**  menu and choose **Publish**  from the list.
+
   1. If you can't see this, then you don't have access to publish documents.
   2. You might see 'Submit for publication' under the menu instead. If you
      see this, click this and it will submit the content to your section
