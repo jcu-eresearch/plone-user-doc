@@ -2,8 +2,10 @@ Adding and Editing Content
 **************************
 How to add and edit content in Plone.
 
+
 Creating a new content item
 ===========================
+
 
 What kind of content can I post?
 --------------------------------
@@ -47,6 +49,7 @@ Follow the steps listed below to create a new content item.
 4. Fill in the form.  Only the fields with a red box are required.
 5. Click the Save button 
 
+
 Editing existing content items
 ==============================
 
@@ -64,6 +67,7 @@ To edit a content item:
 * Edit the content item, changing whatever you'd like to
 * Add some comments to the Change Note field to describe your change.
 * Click the Save button
+
 
 What kind of content can I post?
 ================================
