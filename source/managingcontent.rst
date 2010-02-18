@@ -175,10 +175,10 @@ To share with all logged in users:
 * You can add the following permissions by ticking the correct box in the 
   table next to "Logged-in Users":
 
- * Can Add - if this is a folder, a person can add a document to the folder
- * Can Edit - the person can edit any files in this folder
- * Can View - the person can read, but not edit the filesCan Review - the 
-   person can approve this document for publishing
+  * Can Add - if this is a folder, a person can add a document to the folder
+  * Can Edit - the person can edit any files in this folder
+  * Can View - the person can read, but not edit the filesCan Review - the
+    person can approve this document for publishing
 
 
 To share with an individual:
