@@ -313,9 +313,9 @@ it'll appear.
 4. Click onto the Save button to save your content.
 5. Click onto the **State**  menu and choose **Publish**  from the list.
 
-  1. If you can't see this, then you don't have access to publish documents.
-  2. You might see 'Submit for publication' under the menu instead. If you
-     see this, click this and it will submit the content to your section
-     administrator for approval.
-  3. In any case, you'll need to contact your site or section administrator
-     for access or to get them to publish the content for you.
+   1. If you can't see this, then you don't have access to publish documents.
+   2. You might see 'Submit for publication' under the menu instead. If you
+      see this, click this and it will submit the content to your section
+      administrator for approval.
+   3. In any case, you'll need to contact your site or section administrator
+      for access or to get them to publish the content for you.
