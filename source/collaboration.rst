@@ -70,11 +70,11 @@ Enabling syndication on a Folder/Collection
 3. Click the 'Enable Syndication' button
 4. Select how often you want your RSS feed updated.
 
- 1. If you'd like it be updated frequently, then you can select a value like
-    every 1 hour.
- 2. Otherwise, if you don't want your newest content to go out so quickly 
-    (for example, if you want to tentatively release information), then pick
-    a slower update duration.
+   1. If you'd like it be updated frequently, then you can select a value like
+      every 1 hour.
+   2. Otherwise, if you don't want your newest content to go out so quickly
+      (for example, if you want to tentatively release information), then pick
+      a slower update duration.
 
 
 Viewing a feed
