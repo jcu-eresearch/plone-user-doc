@@ -188,8 +188,8 @@ from the list.
 +-------------------------+-------------------------------------------------+
 | Thumbnail               | Lists the images in thumbnail form              | 
 +-------------------------+-------------------------------------------------+
-| Content item as default | Lets you set a particular item as the home page |
-|                         | for this folder                                 |
+| Content item as default | Lets you set a content item contained within    |
+|                         | this item as the home page for this folder      |
 +-------------------------+-------------------------------------------------+
 
 
