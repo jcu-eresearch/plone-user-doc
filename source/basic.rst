@@ -131,6 +131,7 @@ dashboard:
 
 .. image:: images/dashboard.png
    :alt: Dashboard
+   :align: center
 
 
 Accessing the dashboard
@@ -173,6 +174,7 @@ from the list.
 
 .. image:: images/display_menu.png
    :alt: Folder display menu
+   :align: center
 
 .. tabularcolumns:: |l|l|
 
@@ -260,6 +262,7 @@ and set the folder to use this page as the default view for the folder.
 
 .. image:: images/display_menu_closeup.jpg
    :alt: Display Menu Closeup
+   :align: center
 
 3. Select the item that you would like to be displayed as the default page of
    the folder and click the **Save**  button.
