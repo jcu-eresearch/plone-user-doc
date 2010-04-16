@@ -1,61 +1,29 @@
-What is Plone?
-**************
+Regular Tasks
+*************
 
-Introduction
-============
+Navigation within Plone
+============================
 
-Collaborative data sharing is a key area of interest for many researchers and
-graduate students. This portal provides a web-based solution for managing data
-and file storage, messaging, project management and more.
+Each person with an account on the portal will have a private folder called
+**"My Folder"** . To go to your folder, click the **My Folder**  link on the
+Personal Bar.
 
-This site uses an open-source content management system called 
-`Plone <http://www.plone.org>`_ to allow researchers to easily share content, 
-files and other digital objects within a web environment without needing to 
-learn web authoring technologies.
+To view the public documents in another folder, click on the folder to view
+the contents.
 
-Researchers can use Plone as an access point to data and file storage, 
-collaboration and project management tools. Plone provides a simple method to
-upload files and annotate them with comments between users.
+If you are not sure where a particular file resides, you can use the
+**LiveSearch**  box at the left of the screen. Just type in a name, and it
+will find all the related documents.
 
+There are many types of documents that can be viewed, downloaded or commented
+upon with the site.
 
-Site Layout: An Introduction
-=================================
-.. Details about how the site is laid out and what features are available.
-
-**Top navigation tabs** 
-   The top navigation tabs are the top-level of navigation on the portal. 
-   Primary folders or other types of content can be added or changed here 
-   with appropriate permissions. For the public or normal users, however, 
-   these serve as a quick way to access the main areas of information on 
-   the portal. 
-**Content management tools** 
-   Here you will find tools for editing and viewing documents to which 
-   you have access. If you don't see this bar of tabs, then you don't have 
-   access to perform any actions on the given piece of content that you're 
-   looking at. 
-**Plone menu bar** 
-   Contains the menus for adding new content to folders, or otherwise 
-   setting how a piece of content is displayed or the workflow state of an 
-   item. 
-**LiveSearch** 
-   A dynamic search engine that automatically updates the search results 
-   as you type a string in the search box. 
-**Main page content** 
-   The main area on the page for your content. If you are looking at folder, 
-   you might see a listing of folder contents here instead, rather than just
-   a single page. Otherwise, you'll see the details about the current piece
-   of content you're looking at. 
-**Portlets** 
-   Small mini 'windows' of information that are typically configured to 
-   display snippets of information from another area on the site. One such 
-   example is a 'News' portlet, which aggregates information from the 'News'
-   section of the site. 
-**Personal bar** 
-   Contains links for logging in and out, access to your folder and your 
-   personal preferences for display of the site. 
-**Site links** 
-   Contains general site links of importance.\Some of these may change 
-   depending on your access rights.
+ * **Page** -- Can be text, images and other HTML
+ * **File** -- A piece of content, can be uploaded from another source
+ * **Folder** -- Similar to a folder on a hard drive, can contain content
+ * **Image** -- Usually ends with the extension gif, png, tif or pict
+ * **Link** -- Hypertext link to another item in the portal or to an external
+   item
 
 
 Logging in
@@ -66,18 +34,52 @@ Being able to log in is the first key step.
 In order for you to view secured content, or to add and edit files and pages
 you must first login.
 
-To login to the portal
-----------------------
+Plone Authentication
+--------------------
 
-* The login area is located on the left side of the
-* Enter the user name and password that you have for the portal. If you don't
-  have an account yet, please contact your site administrator.
-* Click the login button at the bottom of the page to login
-* If you are unable to login, you will be taken to a different page, giving
-  you the chance to login again
+1. The login link is usually located in the top right hand corner of the page.
+
+.. image:: images/login_link.png
+   :alt: Portal Login Link
+   :align: center
+
+2. Enter the user name and password that you have for the portal. If you don't
+   have an account yet, please contact your site administrator.
 
 .. image:: images/login.png
    :alt: Portal Login
+   :align: center
+
+3. Click the login button at the bottom of the page to login
+4. If you are unable to login, you will be taken to a different page, giving
+   you the chance to login again
+
+
+AAF Authentication
+------------------
+
+1. The login link is usually located in the top right hand corner of the page.
+
+.. image:: images/login_link.png
+   :alt: Portal Login Link
+   :align: center
+
+2. If you have the option to login with shibboleth it will be presented in
+   tab like format
+
+.. image:: images/login_shib.png
+   :alt: Portal Login Link
+   :align: center
+
+3. Select the your Institution or Organisation from the dropdown box.
+4. Click the *Select* button at the bottom of the page to login
+
+.. note::
+
+   If your Institution or Organisation doesn't appear in the list. Please
+   apply for an account through the `ARCS Identity Provider
+   <http://https://idp.arcs.org.au/idp_reg/>`_
+
 
 To log out of the portal
 ------------------------
@@ -94,29 +96,6 @@ password?'. Follow these steps to try and change your password.
 If you still can't log in, then contact your site administrator for assistance.
 
 
-Navigation within Plone
-============================
-
-Each person with an account on the portal will have a private folder called 
-**"My Folder"** . To go to your folder, click the **My Folder**  link on the
-Personal Bar.
-
-To view the public documents in another folder, click on the folder to view 
-the contents.
-
-If you are not sure where a particular file resides, you can use the 
-**LiveSearch**  box at the left of the screen. Just type in a name, and it 
-will find all the related documents.
-
-There are many types of documents that can be viewed, downloaded or commented
-upon with the site.
-
- * **Page** -- Can be text, images and other HTML
- * **File** -- A piece of content, can be uploaded from another source
- * **Folder** -- Similar to a folder on a hard drive, can contain content
- * **Image** -- Usually ends with the extension gif, png, tif or pict
- * **Link** -- Hypertext link to another item in the portal or to an external
-   item
 
 
 Using the Dashboard
