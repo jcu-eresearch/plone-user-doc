@@ -18,12 +18,21 @@ will find all the related documents.
 There are many types of documents that can be viewed, downloaded or commented
 upon with the site.
 
- * **Page** -- Can be text, images and other HTML
- * **File** -- A piece of content, can be uploaded from another source
- * **Folder** -- Similar to a folder on a hard drive, can contain content
- * **Image** -- Usually ends with the extension gif, png, tif or pict
- * **Link** -- Hypertext link to another item in the portal or to an external
-   item
+**Page**
+    Can be text, images and other HTML
+
+**File**
+    A piece of content, can be uploaded from another source
+
+**Folder**
+    Similar to a folder on a hard drive, can contain content
+
+**Image**
+    Usually ends with the extension gif, png, tif or pict
+
+**Link**
+    Hypertext link to another item in the portal or to an external
+    item
 
 
 Logging in
