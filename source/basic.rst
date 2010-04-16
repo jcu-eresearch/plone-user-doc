@@ -89,6 +89,17 @@ AAF Authentication
    apply for an account through the `ARCS Identity Provider
    <http://https://idp.arcs.org.au/idp_reg/>`_
 
+.. image:: images/idp_arcs.png
+   :alt: ARCS IDP
+   :align: center
+
+.. note::
+
+   This is a screen shot of the ARCS Idp login page, you institutions
+   will look different.
+
+5. Enter you Institutional/Organisational credentials and login.
+
 
 To log out of the portal
 ------------------------
@@ -103,8 +114,6 @@ link the bottom right, and then read the instructions under 'Forgot your
 password?'. Follow these steps to try and change your password.
 
 If you still can't log in, then contact your site administrator for assistance.
-
-
 
 
 Using the Dashboard
