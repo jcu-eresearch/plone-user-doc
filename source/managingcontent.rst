@@ -196,7 +196,9 @@ To share with an individual:
 To share with a group:
 ----------------------
 
-**Note:** groups are created by the site administrator
+.. note::
+
+   groups are created by the site administrator
 
 * Click on the **Sharing** tab
 * Search for a group by entering a name in the searbox and clicking the 

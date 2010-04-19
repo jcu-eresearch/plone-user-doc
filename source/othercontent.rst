@@ -70,10 +70,13 @@ Plone bar.
 
 .. image:: images/add_new_menu1.png
    :alt: Add new menu
+   :align: center
 
 Enter the information for the content and click the **Save**  button.
 
-**Note:** only **Title**  and **Body**  text are required.
+.. note::
+
+   only **Title**  and **Body**  text are required.
 
 +-----------------+--------------------------------------------------------+
 | Metadata item   | Description                                            |
@@ -100,8 +103,10 @@ Adding Links
 Links can also be added into Plone.\When a user clicks onto a given link, 
 they'll be automatically taken to the target of the link. 
 
-**Note:** if the user has access to edit a given Link, then they'll be taken 
-to a view explaining the link.
+.. note::
+
+   if the user has access to edit a given Link, then they'll be taken
+   to a view explaining the link.
 
 To add a link, choose **Link**  from the **Add new**  menu.
 
