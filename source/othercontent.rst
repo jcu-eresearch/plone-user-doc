@@ -12,6 +12,7 @@ portal menu bar.
 
 .. image:: images/add_new_menu1.png
    :alt: Add new menu
+   :align: center
 
 If the image is of type . **gif** , **.jpg**  or **.png** , it should be 
 viewable in the web browser and the image will not need to be downloaded 
@@ -28,6 +29,7 @@ New drop-down menu.
 
 .. image:: images/add_new_menu1.png
    :alt: Add new menu
+   :align: center
 
 The following metadata items are required.  Although not required, Location 
 is a useful bit of information to include.
@@ -105,6 +107,7 @@ To add a link, choose **Link**  from the **Add new**  menu.
 
 .. image:: images/add_new_menu1.png
    :alt: Add new menu
+   :align: center
 
 Add the metadata.  Only Title and URL are required.  To finish, click the 
 Save button.
@@ -133,6 +136,7 @@ choose folder from the Add New drop-down menu.
 
 .. image:: images/add_new_menu1.png
    :alt: Add new menu
+   :align: center
 
 The metadata for folders is very simple. Just add a **Title**  and a 
 **Description**  for the folder.\You can now add content into this folder, 

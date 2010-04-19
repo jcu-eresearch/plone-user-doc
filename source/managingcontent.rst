@@ -53,6 +53,7 @@ items that have been submitted by for review.
 
 .. image:: images/review_list.png
    :alt: Review list
+   :align: center
 
 If you don't see this on your dashboard, you can add it easily -- it's called 
 a 'Review list portlet'.
@@ -149,6 +150,7 @@ In order to upload a newer version of a file, you will need to edit that item.
 
 .. image:: images/replace_file.png
    :alt: Replace an existing file with a new version
+   :align: center
 
 2. Only the fields with a red box are required, as when you create the content
    originally.

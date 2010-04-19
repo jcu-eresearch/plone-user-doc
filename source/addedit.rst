@@ -44,6 +44,7 @@ Follow the steps listed below to create a new content item.
 
 .. image:: images/add_new_menu.png
    :alt: Add new menu
+   :align: center
 
 3. Choose the appropriate type of file from the drop-down menu.
 4. Fill in the form.  Only the fields with a red box are required.
@@ -63,6 +64,7 @@ To edit a content item:
 
 .. image:: images/edit_button_on_toolbar.png
    :alt: Edit Button on  Toolbar
+   :align: center
 
 * Edit the content item, changing whatever you'd like to
 * Add some comments to the Change Note field to describe your change.
@@ -175,6 +177,7 @@ site. The steps are similar for other types of content, such as images.
 
 .. image:: images/add_file.png
    :alt: Adding a file
+   :align: center
 
 
 Downloading this file again
@@ -187,6 +190,7 @@ details regarding the files type, size and data modified are also listed.
 
 .. image:: images/download_file.png
    :alt: Download the file
+   :align: center
 
 
 .. _setting-the-document-metadata:
@@ -240,6 +244,7 @@ content, and look for these extra tabs:
 
 .. image:: images/metadata_tabs.png
    :alt: Extra tabs
+   :align: center
 
 The extra metadata items are described below. Keep in mind that some of these
 aspects won't appear on all content types, or might appear under different tabs.
