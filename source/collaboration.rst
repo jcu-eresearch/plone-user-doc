@@ -8,15 +8,15 @@ Adding comments to content
 
 With the exception of folders, almost all types content can be enabled to
 allow comments. If comments are enabled for a particular content item you
-will see an **add comment**  button underneath the content
+will see an **add comment**  button underneath the content.
 
 
 To enable comments for a single item
 ------------------------------------
 
-1. Click onto the content item you want to enable comments on
-2. Click onto the Edit tab at the top
-3. Click onto the 'Settings' tab at the top of the page
+1. Click onto the content item you want to enable comments on.
+2. Click onto the Edit tab at the top.
+3. Click onto the 'Settings' tab at the top of the page.
 4. Check the 'Allow comments' box. If you can't find the box here, it might
    be under a different tab (eg 'Properties') as you might be using a custom
    content type.
@@ -66,8 +66,8 @@ Enabling syndication on a Folder/Collection
 
 1. Go to the folder or collection you'd like to enable syndication on.
 2. Click onto the 'RSS' or 'Syndication' tab on the folder (naming depends on
-   your site's configuration)
-3. Click the 'Enable Syndication' button
+   your site's configuration).
+3. Click the 'Enable Syndication' button.
 4. Select how often you want your RSS feed updated.
 
    1. If you'd like it be updated frequently, then you can select a value like
