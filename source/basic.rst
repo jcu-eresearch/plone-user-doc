@@ -2,10 +2,10 @@ Regular Tasks
 *************
 
 Navigation within Plone
-============================
+=======================
 
 Each person with an account on the portal will have a private folder called
-**"My Folder"** . To go to your folder, click the **My Folder**  link on the
+**My Folder** . To go to your folder, click the **My Folder**  link on the
 Personal Bar.
 
 To view the public documents in another folder, click on the folder to view
@@ -45,7 +45,8 @@ upon with the site.
 Name changes
 ============
 
-.. If for some reason, you have had your name changed, then you should follow the steps below.
+.. If for some reason, you have had your name changed, then you should follow
+   the steps below.
 
 You'll have to get into contact with your site administrator to have your
 name changed. If you don't know who they are, you can usually get into
@@ -62,11 +63,11 @@ folder. The system saves your name as the folder's title by default, thus
 meaning it won't automatically update if your name does change. To change
 the name of your folder:
 
-* Log into your given Plone site
+* Log into your given Plone site.
 * Click onto the 'My folder' link on your user actions bar (near your name and
-  the 'Log out' link)
-* Click onto the 'Edit' tab
-* Edit the title of the folder appropriately to reflect your new name
+  the 'Log out' link).
+* Click onto the 'Edit' tab.
+* Edit the title of the folder appropriately to reflect your new name.
 * Click the 'Save' button.
 
 That's it.

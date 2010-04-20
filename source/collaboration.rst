@@ -45,7 +45,7 @@ content which includes that string in either the metadata or the text of the
 document.
 
 .. image:: images/live_search.png
-   :alt: LiveSearch
+   :alt: Live Search
 
 
 Viewing content via RSS
@@ -65,9 +65,9 @@ Enabling syndication on a Folder/Collection
 -------------------------------------------
 
 1. Go to the folder or collection you'd like to enable syndication on.
-2. Click onto the 'RSS' or 'Syndication' tab on the folder (naming depends on
+2. Click onto the *RSS* or *Syndication* tab on the folder (naming depends on
    your site's configuration).
-3. Click the 'Enable Syndication' button.
+3. Click the **Enable Syndication** button.
 4. Select how often you want your RSS feed updated.
 
    1. If you'd like it be updated frequently, then you can select a value like

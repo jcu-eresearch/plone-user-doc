@@ -19,7 +19,7 @@ upload files and annotate them with comments between users.
 
 
 Site Layout: An Introduction
-=================================
+============================
 .. Details about how the site is laid out and what features are available.
 
 **Top navigation tabs** 
