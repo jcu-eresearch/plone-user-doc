@@ -66,7 +66,9 @@ AAF Authentication
 
 To log out of the portal
 ------------------------
-Click the *logout*  link at the bottom of any portal page.
+Click the *logout*  link. Typically this can be found in the top right corner or at the bottom of any portal page depending on your site design.
+
+*Note*: if you are logged in via AAF Authentication, the only way to log out is to quit the browser you are using. Clicking on the *logout* link will give you a message to this effect.
 
 If you cannot log in
 --------------------
