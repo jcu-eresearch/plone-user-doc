@@ -12,6 +12,7 @@
 # serve to show the default.
 
 import sys, os
+import sphinx_bootstrap_theme
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -38,7 +39,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Plone User Documentation'
-copyright = u'2010, Russell Sim'
+copyright = u''
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -69,6 +70,10 @@ exclude_trees = []
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
 
+#A list of global patterns that should be excluded when looking for files. 
+#The following have been included to prevent a warning as they are not used in the toctree. 
+exclude_patterns = ["containers.rst", "customisation.rst", "dashboard.rst", "homepage.rst", "login.rst", "preferences.rst"]
+
 # If true, '()' will be appended to :func: etc. cross-reference text.
 #add_function_parentheses = True
 
@@ -91,15 +96,25 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
-html_theme = 'default'
+html_theme = 'bootstrap'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+                      
+# Bootswatch (http://bootswatch.com/) theme.
+#
+# Options are nothing with "" (default) or the name of a valid theme
+# such as "amelia" or "cosmo".
+#
+# Note that this is served off CDN, so won't be available offline.
+'bootswatch_theme': "spacelab",
+                      
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
-#html_theme_path = []
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -147,7 +162,7 @@ html_static_path = ['_static']
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
@@ -160,7 +175,6 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'PloneUserDocumentationdoc'
 
-
 # -- Options for LaTeX output --------------------------------------------------
 
 # The paper size ('letter' or 'a4').
@@ -172,8 +186,8 @@ htmlhelp_basename = 'PloneUserDocumentationdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'PloneUserDocumentation.tex', u'Plone User Documentation Documentation',
-   u'Russell Sim', 'manual'),
+  ('index', 'PloneUserDocumentation.tex', u'Plone User Documentation',
+   u'', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

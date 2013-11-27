@@ -32,3 +32,5 @@ var/
 
 # OSX
 .DS_Store
+
+*.prefs

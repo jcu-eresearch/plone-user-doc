@@ -8,7 +8,7 @@ content. For example, the news portlet offers a view of recently published
 news items.
 
 You control which portlets you view in your dashboard, and where they are
-placed. The following screen capture shows what one user\might see on their
+placed. The following screen capture shows what a user might see on their
 dashboard:
 
 .. image:: images/dashboard.png
@@ -19,9 +19,9 @@ dashboard:
 Accessing the dashboard
 -----------------------
 
-1. Click onto your own name in your user actions toolbar (at the bottom of
+1. Click onto your own name in your user actions toolbar (at the top of
    the site).
-2. This is your dashboard.
+2. Select *Dashboard*.
 
 
 Editing your dashboard
@@ -35,12 +35,6 @@ Editing your dashboard
 Details about dashboards
 ------------------------
 
-A new user account on the portal will have a dashboard similar the one shown.
-Depending on what is installed for the site, the user can customise the
-portlets they want to see and where to place them within the four columns.
-
-So, for the typical user account, the dashboard would start with the portlets
-shown above, and later would be "populated" as news items, events, and other
-content items are added to the web site.
-
-
+A new user account on the portal will have an empty dashboard. Depending on what 
+is installed for the site, the user can customise the portlets they want to see
+and where to place them within the four columns.

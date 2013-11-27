@@ -5,21 +5,22 @@
 
 .. _plone-index:
 
-Plone User Documentation
-========================
+Basic Portal Use
+================
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
 
-   overview
-   basic
+   introduce
    addedit
    managingcontent
    othercontent
+   layoutanddesign
    collaboration
+.. commented out as not relevant to espaces currently
+.. customisation
 
 Indices and tables
 ==================
