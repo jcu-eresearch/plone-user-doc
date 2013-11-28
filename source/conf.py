@@ -39,7 +39,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Plone User Documentation'
-copyright = u''
+copyright = u'CC-BY-NC 2013 eResearch Centre, James Cook University'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -187,7 +187,7 @@ htmlhelp_basename = 'PloneUserDocumentationdoc'
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'PloneUserDocumentation.tex', u'Plone User Documentation',
-   u'', 'manual'),
+   u'eResearch Centre, James Cook University', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
