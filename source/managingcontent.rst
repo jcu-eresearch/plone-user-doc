@@ -154,7 +154,7 @@ In order to upload a newer version of a file, you will need to edit that item.
 Granting access to your content
 ===============================
 
-**Sometimes you'll want to give access to individuals or a group of users, rather than the whole Internet.**
+**Sometimes you'll want to give access to individuals rather than the whole Internet.**
 
 You can choose to share your document with all logged in users or with a 
 particular person. Descriptions for how to set up each of these permissions 
@@ -179,16 +179,10 @@ To share with an individual:
 * When the appropriate name appears, tick the correct box next to the name for the permission that you would like to add
 * Click the **Save** button to save the changes
 
-To share with a group:
-----------------------
-
 .. note::
 
-   groups are created by the site administrator
+   The creation of groups for sharing is not supported by eSpaces.
 
-* Click on the **Sharing** tab
-* Search for a group by entering a name in the searbox and clicking the **Search** button
-* When the appropriate name appears, tick the correct box next to the name for the permission that you would like to add
 
 Inheriting permissions
 ----------------------
