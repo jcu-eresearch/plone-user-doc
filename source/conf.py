@@ -178,7 +178,7 @@ htmlhelp_basename = 'PloneUserDocumentationdoc'
 # -- Options for LaTeX output --------------------------------------------------
 
 # The paper size ('letter' or 'a4').
-#latex_paper_size = 'letter'
+#latex_paper_size = 'a4'
 
 # The font size ('10pt', '11pt' or '12pt').
 #latex_font_size = '10pt'
@@ -189,6 +189,8 @@ latex_documents = [
   ('index', 'PloneUserDocumentation.tex', u'Plone User Documentation',
    u'eResearch Centre, James Cook University', 'manual'),
 ]
+
+latex_elements = {"papersize":"a4paper"}
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -205,7 +207,7 @@ latex_documents = [
 #latex_appendices = []
 
 # If false, no module index is generated.
-#latex_use_modindex = True
+latex_domain_indices = True
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
