@@ -156,20 +156,8 @@ Granting access to your content
 
 **Sometimes you'll want to give access to individuals rather than the whole Internet.**
 
-You can choose to share your document with all logged in users or with a 
-particular person. Descriptions for how to set up each of these permissions 
-are listed below.
-
-To share with all logged in users:
-----------------------------------
-
-* Click on the **Sharing** tab
-* You can add the following permissions by ticking the correct box in the table next to "Logged-in Users":
-
-  * Can Add - if this is a folder, a person can add a document to the folder
-  * Can Edit - the person can edit any files in this folder
-  * Can View - the person can read, but not edit the files
-  * Can Review - the person can approve this document for publishing
+You can choose to share your document with with a particular person. Descriptions for
+how to set up each of these permissions are listed below.
 
 To share with an individual:
 ----------------------------
