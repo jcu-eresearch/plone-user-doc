@@ -1,8 +1,8 @@
 Introducing Plone
 *****************
 
-What is Plone?
-==============
+What is eSpaces?
+================
 *Introduction*
 
 Collaborative data sharing is a key area of interest for many researchers and
@@ -18,6 +18,29 @@ Researchers can use Plone as an access point to data and file storage,
 collaboration and project management tools. Plone provides a simple method to
 upload files and annotate them with comments between users.
 
+.. include:: login.rst
+
+.. include:: maintainspace.rst
+
+Find an eSpace
+==============
+
+After logging in, click on *Find an eSpace* on the top menu. This page displays
+all eSpaces that you have access to.
+
+.. image:: /images/findspace.png
+   :alt: Find an eSpace
+   :align: center
+
+My eSpaces
+==========
+
+After logging in, click on *My eSpaces* on the top menu. This page displays
+all eSpaces that you have created or have been marked as a 'creator'.
+
+.. image:: /images/myspace.png
+   :alt: My eSpaces
+   :align: center
 
 Site Layout: An Introduction
 ============================
@@ -61,8 +84,6 @@ Site Layout: An Introduction
 .. image:: /images/site_layout.png
    :align: center
    
-.. include:: login.rst
-
 Navigation within Plone
 =======================
 

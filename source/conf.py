@@ -38,7 +38,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Plone User Documentation'
+project = u'eSpaces User Documentation'
 copyright = u'CC-BY-NC 2013 eResearch Centre, James Cook University'
 
 # The version info for the project you're documenting, acts as replacement for
