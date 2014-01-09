@@ -1,91 +1,152 @@
 Logging in
 ==========
-*Being able to log in is the first key step.*
 
-In order for you to view secured content, or to add and edit files and pages
-you must first login.
+*The first key step to accessing the system is the login process.*
 
-Most system users will use the AAF Authentication to login.
+In order for you to view secured content, add or edit files and pages,
+or perform any other content-related tasks, you must first log in.
+
+Most users will use their existing institutional username and password (or
+other credentials) to log in via the :term:`Australian Access Federation
+(AAF)`.
 
 AAF Authentication
 ------------------
 
-1. The login link is usually located in the top right hand corner of the page.
+#. The login link is located in the top-right hand corner of the page.
 
-.. image:: /images/login_link.png
-   :alt: Portal Login Link
-   :align: center
+   .. image:: /images/login_link.png
+      :alt: Portal Login Link
+      :align: center
+      :scale: 75%
 
-2. If you have the option to login with shibboleth it will be presented in
-   tab like format
+    
 
-.. image:: /images/login_shib.png
-   :alt: Portal Login Link
-   :align: center
+#. You will be presented with the option to utilise AAF authentication to
+   log in. 
 
-3. Select the your Institution or Organisation from the dropdown box.
-4. Click the *Login* button.
+   .. image:: /images/login_shib.png
+      :alt: Portal Login Link
+      :align: center
+      :scale: 50%
 
-.. note::
+    
 
-   If your Institution or Organisation doesn't appear in the list. Please
-   apply for an account through the `ARCS Identity Provider
-   <http://https://idp.arcs.org.au/idp_reg/>`_
+#. Select your institution or organisation from the dropdown box.
 
-.. image:: /images/idp_jcu.png
-   :alt: ARCS IDP
-   :align: center
+   .. note::
 
-.. note::
+      If your institution or organisation doesn't appear in the list,
+      then you should contact your IT support staff about whether you
+      are part of the :term:`Australian Access Federation (AAF)`. If you 
+      are a collaborator associated with an organisation subscribed to the
+      AAF, then you can obtain an AAF Virtual Home account by following
+      the instructions in the `AAF Virtual Home User Guide
+      <https://vho.aaf.edu.au/guides/user-guide.pdf>`_.
 
-   This is a screen shot of the JCUs Idp login page, you institution's
-   will look different.
+#. Click the *Login* button.
 
-5. Enter you Institutional/Organisational credentials and login.
+#. Enter your institutional or organisational credentials and login.
 
-Plone Authentication
---------------------
+   .. image:: /images/idp_jcu.png
+      :alt: JCU Identity Provider 
+      :align: center
+      :scale: 50%
 
-Most users will not use this login
+   .. note::
 
-1. The login link is usually located in the top right hand corner of the page.
+      This is a screen shot of the James Cook University login page - your
+      institution's will look different and may behave in a slightly different
+      manner.
 
-.. image:: /images/login_link.png
-   :alt: Portal Login Link
-   :align: center
+#. You may be prompted to release certain details about yourself from your
+   organisation, including name, email address, and other particulars.
+   You must accept this to continue so that you can be identified within
+   our system.
 
-2. Click on the 'Local Login'.
+#. Once logged in, notice that your name is displayed at the top-right
+   hand corner and that you can click on this to display the user
+   actions menu.
 
-3. Enter the user name and password that you have for the portal. If you don't
-   have an account yet, please contact your site administrator.
+   .. image:: /images/user-tools-menu.png
+      :alt: User actions menu
+      :align: center
+      :scale: 75%
 
-.. image:: /images/login.png
-   :alt: Portal Login
-   :align: center
 
-4. Click the *Local Login* button.
-5. If you are unable to login, you will be taken to a different page, giving
-   you the chance to login again.
 
-To log out of the portal
-------------------------
-Click the *logout*  link. Typically this can be found in the top right corner or at the bottom of any portal page depending on your site design.
+Local Plone Authentication
+---------------------------
 
-*Note*: if you are logged in via AAF Authentication, the only way to log out is to quit the browser you are using.
+If you do not have an insitutional account, and you have a local site login,
+then use the instructions that follow.  Typically, users will not be using 
+this process and will be utilising existing credentials.
+
+#. The login link is located in the top right hand corner of the page.
+
+   .. image:: /images/login_link.png
+      :alt: Portal Login Link
+      :align: center
+      :scale: 75%
+
+   
+
+#. Click on the 'Local Login' link.
+
+#. Enter the user name and password that you have for the portal. 
+
+   .. image:: /images/login.png
+      :alt: Portal Login
+      :align: center
+      :scale: 50%
+
+
+
+#. Click the *Local Login* button.
+
+#. If you are unable to login, you can retry your login. 
+   If you have forgotten your password, follow the given link
+   to start the reset process.
+
+
+Logging out
+-----------
+
+#. Click your username in the top-right hand corner of the site to reveal
+   the user actions menu.
+
+#. Click the *Log out* link.
+
+   .. note::
+
+      If you are logged in via your instutional credentials with AAF 
+      Authentication, you can log out of the portal, but your browser will
+      remember you for use on other AAF services.  To log out entirely,
+      either quit the browser you use are using, or clear all cookies.
+
 
 If you cannot log in
 --------------------
 
-*AAF (Institutional)*
 
-If you are unable to login to the portal, you may have forgotten your password. Since authentication is provided by your institution, 
-please refer to your institution's process for resetting passwords. 
+AAF Authentication
+~~~~~~~~~~~~~~~~~~
 
-*Local Login*
+If you are unable to login to the portal, you may have forgotten your password.
+Since authentication is provided by your institution, please refer to your
+institution's process for resetting passwords. 
 
-If you are unable to login to the portal, you may have forgotten
-your password. If you believe this is the case, you can click onto the 'Local Login'
-link, and then click on 'Forgot your password?' and follow the steps.
+If you receive an error message concerning the *AAF*, *Shibboleth*, or
+something else obscure, then please contact your institution's IT helpdesk
+for troubleshooting.
 
-If you still can't log in, then contact your site administrator for assistance.
+
+Local Login
+~~~~~~~~~~~
+
+If you are unable to login to the portal, you may have forgotten your password.
+If you believe this is the case, click onto the 'Local Login' link, and
+then click on 'Forgot your password?' and follow the steps.
+
+If you still can't log in, then contact the site administrator for assistance.
 

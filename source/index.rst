@@ -8,8 +8,6 @@
 Basic Portal Use
 ================
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
 
@@ -19,8 +17,10 @@ Contents:
    othercontent
    layoutanddesign
    collaboration
+   glossary
 .. commented out as not relevant to espaces currently
 .. customisation
+
 
 Indices and tables
 ==================
