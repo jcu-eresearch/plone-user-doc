@@ -177,37 +177,41 @@ htmlhelp_basename = 'PloneUserDocumentationdoc'
 
 # -- Options for LaTeX output --------------------------------------------------
 
-# The paper size ('letter' or 'a4').
-#latex_paper_size = 'a4'
-
-# The font size ('10pt', '11pt' or '12pt').
-#latex_font_size = '10pt'
-
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'PloneUserDocumentation.tex', u'Plone User Documentation',
-   u'eResearch Centre, James Cook University', 'manual'),
+  ('index',
+   'PloneUserDocumentation.tex',
+   u'eSpaces User Documentation',
+   u'eSpaces Team',
+   'manual'),
 ]
 
-latex_elements = {"papersize":"a4paper"}
+# Configuration for LaTeX snippets for generated .tex files
+latex_elements = {'papersize': 'a4paper',
+                  'pointsize': '10pt',
+                  'classoptions': ',openany,oneside',
+                  'babel': '\\usepackage[english]{babel}'}
+
+# Control whether to display URL addresses.
+latex_show_urls = 'inline'
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+latex_logo = 'images/espaces-logo.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
 #latex_use_parts = False
-
-# Additional stuff for the LaTeX preamble.
-#latex_preamble = ''
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
 
 # If false, no module index is generated.
 latex_domain_indices = True
+
+#If true, add page references after internal references.
+latex_show_pagerefs = True
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
