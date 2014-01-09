@@ -1,22 +1,21 @@
-Introducing Plone
-*****************
+Introducing eSpaces and Plone
+*****************************
 
 What is eSpaces?
 ================
-*Introduction*
 
 Collaborative data sharing is a key area of interest for many researchers and
 graduate students. This portal provides a web-based solution for managing data
 and file storage, messaging, project management and more.
 
-This site uses an open-source content management system called
+Researchers can use eSpaces as an access point to data and file storage,
+collaboration and project management tools. eSpaces provides a simple method to
+upload files and annotate them with comments between users.
+
+This site uses an open-source Content Management System (CMS) called
 `Plone <http://www.plone.org>`_ to allow researchers to easily share content,
 files and other digital objects within a web environment without needing to
 learn web authoring technologies.
-
-Researchers can use Plone as an access point to data and file storage,
-collaboration and project management tools. Plone provides a simple method to
-upload files and annotate them with comments between users.
 
 .. include:: login.rst
 
@@ -31,20 +30,30 @@ all eSpaces that you have access to.
 .. image:: /images/findspace.png
    :alt: Find an eSpace
    :align: center
+   :scale: 50%
 
 My eSpaces
 ==========
 
 After logging in, click on *My eSpaces* on the top menu. This page displays
-all eSpaces that you have created or have been marked as a 'creator'.
+all eSpaces that you have created or have been marked as a 'creator' for.
 
 .. image:: /images/myspace.png
    :alt: My eSpaces
    :align: center
+   :scale: 50%
 
 Site Layout: An Introduction
 ============================
-*Details about how the site is laid out and what features are available.*
+
+A given eSpace will be laid out in a similar fashion to that shown below,
+depending on what features have been utilised by the creator and contributors.
+Remember that individual sites may look slightly different, including
+fonts and colours, as sites may select their own themes.
+
+.. image:: /images/site_layout.png
+   :align: center
+   :width: 100%
 
 1. **Top navigation tabs** 
    The top navigation tabs are the top-level of navigation on the portal. 
@@ -80,9 +89,6 @@ Site Layout: An Introduction
 .. 8. **Help menu** 
 ..   Contains general site links of importance. Some of these may change 
 ..   depending on your access rights.
-
-.. image:: /images/site_layout.png
-   :align: center
    
 Navigation within Plone
 =======================

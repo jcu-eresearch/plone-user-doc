@@ -14,23 +14,24 @@ from the list.
 
 .. tabularcolumns:: |l|l|
 
-+-------------------------+-------------------------------------------------+-+
-| Folder view             | Description                                     | |
-+=========================+=================================================+=+
-| Properties              | Shows all the properties in the folder          | |
-+-------------------------+-------------------------------------------------+-+
-| Summary                 | Lists the title and description of the content  | |
-+-------------------------+-------------------------------------------------+-+
-| Tabular                 | Lists the content items in a table format       | |
-+-------------------------+-------------------------------------------------+-+
-| Thumbnail               | Lists the images in thumbnail form              | |
-+-------------------------+-------------------------------------------------+-+
-| Standard                | Lists all content items in the folder and gives | |
-|                         | Title, Description, Creator and Date details    | |
-+-------------------------+-------------------------------------------------+-+
-| All content             | Displays a page containing all content from     | |
-|                         | items inside the folder                         | |
-+-------------------------+-------------------------------------------------+-+
-| Content item as default | Lets you set a particular item as the home page | |
-|                         | for this folder                                 | |
-+-------------------------+-------------------------------------------------+-+
++-------------------------+-------------------------------------------------+
+| Folder view             | Description                                     |
++=========================+=================================================+
+| Properties              | Shows all the properties in the folder          |
++-------------------------+-------------------------------------------------+
+| Summary                 | Lists the title and description of the content  |
++-------------------------+-------------------------------------------------+
+| Tabular                 | Lists the content items in a table format       |
++-------------------------+-------------------------------------------------+
+| Thumbnail               | Lists the images in thumbnail form              |
++-------------------------+-------------------------------------------------+
+| Standard                | Lists all content items in the folder and gives |
+|                         | Title, Description, Creator and Date details    |
++-------------------------+-------------------------------------------------+
+| All content             | Displays a page containing all content from     |
+|                         | items inside the folder                         |
++-------------------------+-------------------------------------------------+
+| Content item as default | Lets you set a particular item as the home page |
+|                         | for this folder                                 |
++-------------------------+-------------------------------------------------+
+
