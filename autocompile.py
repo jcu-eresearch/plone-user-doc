@@ -1,18 +1,19 @@
 #!/usr/bin/env python
-#
-# Usage:
-#   ./autocompile.py path extn cmd
-#
-# Blocks monitoring |path| and its subdirectories for modifications on
-# files ending with suffix |extk|. Run |cmd| each time a modification
-# is detected. |cmd| is optional and defaults to 'make'.
-#
-# Example:
-#   ./autocompile.py /my-latex-document-dir .tex "make pdf"
-#
-# Dependancies:
-#   Linux, Python 2.x, Pyinotify
-#
+"""
+Usage:
+./autocompile.py path extn cmd
+
+Blocks monitoring |path| and its subdirectories for modifications on
+files ending with suffix |extk|. Run |cmd| each time a modification
+is detected. |cmd| is optional and defaults to 'make'.
+
+Example:
+./autocompile.py /my-latex-document-dir .tex "make pdf"
+
+Dependancies:
+  Linux, Python 2.x, Pyinotify
+"""
+
 import sys
 import pyinotify
 
@@ -61,7 +62,9 @@ def auto_compile(path, extension, cmd):
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        print >> sys.stderr, "Command line error: missing argument(s)."
+        import autocompile
+        print >> sys.stderr, "Command line error: missing argument(s).\n" \
+                + autocompile.__doc__
         sys.exit(1)
 
     # Required arguments
