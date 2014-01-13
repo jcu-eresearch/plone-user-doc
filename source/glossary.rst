@@ -2,6 +2,7 @@ Glossary
 ********
 
 .. glossary ::
+   :sorted:
 
    Australian Access Federation (AAF)
       The independent organisation that provides shared authentication

@@ -1,8 +1,11 @@
+.. _managing-content:
+
 Managing your content
 *********************
 
 What is a workflow?
 ===================
+
 **Workflows play an important role in your portal's security and control who can see a document.**
 
 Workflows and document publishing

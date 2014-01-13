@@ -1,8 +1,14 @@
+.. _customising-layout-design:
+
 Customising Layout and Design
 *****************************
 
 **Within your Plone site, you have the ability to control what information is displayed,
 where and how**
+
+.. include:: containers.rst
+
+.. include:: homepage.rst
 
 Managing Portlets
 =================

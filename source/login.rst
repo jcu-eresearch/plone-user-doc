@@ -3,8 +3,9 @@ Logging in
 
 *The first key step to accessing the system is the login process.*
 
-In order for you to view secured content, add or edit files and pages,
-or perform any other content-related tasks, you must first log in.
+In order for you to create an eSpace, access existing secured content,
+add or edit files and pages, or perform any other content-related tasks,
+you must first log in.
 
 Most users will use their existing institutional username and password (or
 other credentials) to log in via the :term:`Australian Access Federation
@@ -132,13 +133,8 @@ If you cannot log in
 AAF Authentication
 ~~~~~~~~~~~~~~~~~~
 
-If you are unable to login to the portal, you may have forgotten your password.
-Since authentication is provided by your institution, please refer to your
-institution's process for resetting passwords. 
-
-If you receive an error message concerning the *AAF*, *Shibboleth*, or
-something else obscure, then please contact your institution's IT helpdesk
-for troubleshooting.
+Since authentication is provided by your institution directly, please refer
+to your local IT helpdesk for troubleshooting and password reset requests. 
 
 
 Local Login
@@ -148,5 +144,6 @@ If you are unable to login to the portal, you may have forgotten your password.
 If you believe this is the case, click onto the 'Local Login' link, and
 then click on 'Forgot your password?' and follow the steps.
 
-If you still can't log in, then contact the site administrator for assistance.
+If you still can't log in, or have forgotten your username, then contact
+the site administration for assistance.
 

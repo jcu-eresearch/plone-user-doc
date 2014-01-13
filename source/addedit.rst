@@ -1,7 +1,11 @@
+.. _adding-and-editing-content:
+
 Adding and Editing Content
 **************************
 
-**How to add and edit content in Plone.**
+This platform is built to be a fully-featured :abbr:`Content Management System
+(CMS)`, meaning that users are able to add and edit content directly via the
+web.
 
 
 Creating a new content item
@@ -10,6 +14,7 @@ Creating a new content item
 
 What kind of content can I post?
 --------------------------------
+
 
 As a member of the site, you have been automatically granted access to 
 add/edit/delete content.
