@@ -18,6 +18,7 @@ Basic Portal Use
    layoutanddesign
    collaboration
    user-features
+   faq
    glossary
 .. commented out as not relevant to espaces currently
 .. customisation
