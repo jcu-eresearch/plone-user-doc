@@ -7,7 +7,8 @@ Logging in
 
 In order for you to create an eSpace, access existing secured content,
 add or edit files and pages, or perform any other content-related tasks,
-you must first log in.
+you must first log in.  In order to share content with colleagues, each
+person must log in to eSpaces at least once before they become visible.
 
 Most users will use their existing institutional username and password (or
 other credentials) to log in via the :term:`Australian Access Federation
