@@ -74,6 +74,33 @@ see :ref:`adding-and-editing-content` and :ref:`managing-content`.
    of these settings at any time.
 
 
+Sharing an eSpace
+-----------------
+
+eSpaces are made for sharing, either with colleagues at a local institution
+or across institutions within Australia.  You can choose whether you'd like
+to collaborate with associates across your entire eSpace or just inside part
+of it.  To do this:
+
+#. Ask your colleagues to log in to eSpaces at https://espaces.edu.au.
+   You can send them the link to the documentation at :ref:`logging-in`.
+
+   .. note::
+
+       Because of the way that cross-instutional accounts work, your associates
+       must log in first before you can share with them.
+
+       Your colleagues will need to let you know they've completed this step so
+       you know when to proceed.
+   
+#. After they have logged in once, eSpaces will now know about
+   them and you can follow instructions for :ref:`sharing-your-content`.
+
+#. If you'd like to share with the same people later, eSpaces already knows
+   about them, so you can search and share with them immediately. 
+
+
+
 Deleting an eSpace
 ------------------
 

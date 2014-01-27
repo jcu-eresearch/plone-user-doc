@@ -157,10 +157,11 @@ In order to upload a newer version of a file, you will need to edit that item.
 Granting access to your content
 ===============================
 
-**Sometimes you'll want to give access to individuals rather than the whole Internet.**
+**Sometimes you'll want to give access to individuals rather than the whole
+Internet.**
 
-You can choose to share your document with with a particular person. Descriptions for
-how to set up each of these permissions are listed below.
+You can choose to share your document with with a particular person.
+Descriptions for how to set up each of these permissions are listed below.
 
 To share with an individual:
 ----------------------------
