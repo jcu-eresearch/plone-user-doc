@@ -83,7 +83,8 @@ to collaborate with associates across your entire eSpace or just inside part
 of it.  To do this:
 
 #. Ask your colleagues to log in to eSpaces at https://espaces.edu.au.
-   You can send them the link to the documentation at :ref:`logging-in`.
+   You can send them the link to the documentation about :ref:`logging-in`
+   to help them through the process.
 
    .. note::
 
@@ -93,11 +94,12 @@ of it.  To do this:
        Your colleagues will need to let you know they've completed this step so
        you know when to proceed.
    
-#. After they have logged in once, eSpaces will now know about
-   them and you can follow instructions for :ref:`sharing-your-content`.
+#. After each of your colleagues have logged in once, eSpaces will now know
+   about their accounts.  Once this has happened, you can continue following
+   instructions for :ref:`sharing-your-content`.
 
-#. If you'd like to share with the same people later, eSpaces already knows
-   about them, so you can search and share with them immediately. 
+#. If you'd like to share with the same people later, you can search and share
+   with them immediately as they are already known to eSpaces. 
 
 
 

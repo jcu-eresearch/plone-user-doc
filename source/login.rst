@@ -1,4 +1,4 @@
-.. _logging-in::
+.. _logging-in:
 
 Logging in
 ==========
