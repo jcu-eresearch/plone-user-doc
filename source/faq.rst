@@ -91,43 +91,50 @@ Uploading Multiple Files and Folders (Mac)
 Uploading Multiple Files and Folders (Linux)
 --------------------------------------------
 
-1. Gnome-based Systems Typically, Ubuntu and Debian operate with the Gnome desktop environment; follow these instructions if they suit your system.
+Gnome-based Systems
+^^^^^^^^^^^^^^^^^^^
 
-   a. Click onto the Places menu, and choose Connect to Server.
-   b. Under Service Type select either WebDAV (HTTPS) or WebDAV (HTTP) if you don't have the former.
-   c. Enter the following details:
-       i.  Server: espaces.edu.au
-       ii. Port: 443
-       iii. Folder: "<your eSpace Id>" e.g: https://espaces.edu.au/<your eSpace Id>
-       iv. User Name: 
-            1. On you eSpace site, click on 'Sharing'
-            2. You will see a list of users, including your name. You username is displayed next to your name. It is a long alphanumeric string.   
+Typically, Ubuntu and Debian operate with the Gnome desktop environment; follow these instructions if they suit your system.
 
-   d. Check 'Add bookmark' if you want to save this location for later (and enter a bookmark name).
-   e. When the Enter Password prompt appears, enter your site password.  You can choose to remember the password, if you so wish.
-       i.   On your eSpace site, under your username, top right hand corner, click on Preferences
-       ii.  Click on the Password tab.
-       iii. Click 'Generate new password'.
-       iv.  Your new password is displayed in the 'Info' bar.
+1. Click onto the Places menu, and choose Connect to Server.
+2. Under Service Type select either WebDAV (HTTPS) or WebDAV (HTTP) if you don't have the former.
+3. Enter the following details:
+    i.  Server: espaces.edu.au
+    ii. Port: 443
+    iii. Folder: "<your eSpace Id>" e.g: https://espaces.edu.au/<your eSpace Id>
+    iv. User Name: 
+         a. On you eSpace site, click on 'Sharing'
+         b. You will see a list of users, including your name. You username is displayed next to your name. It is a long alphanumeric string.   
 
-   f. The WebDAV folder should appear under your Places menu, and on the Desktop as well.  Drag and drop files into this location to copy them to your site.
+4. Check 'Add bookmark' if you want to save this location for later (and enter a bookmark name).
+5. When the Enter Password prompt appears, enter your site password.  You can choose to remember the password, if you so wish.
+    i.   On your eSpace site, under your username, top right hand corner, click on Preferences
+    ii.  Click on the Password tab.
+    iii. Click 'Generate new password'.
+    iv.  Your new password is displayed in the 'Info' bar.
 
-2. Other Linux Variations Linux distributions vary widely, but on any system with a command line, you can follow these instructions.
+6. The WebDAV folder should appear under your Places menu, and on the Desktop as well.  Drag and drop files into this location to copy them to your site.
 
-   The command line tool 'cadaver' is a WebDAV client. 
-   
-   a. Install this program using something like yum install cadaver or apt-get install cadaver
-   b. Then connect using the command: cadaver https://espaces.edu.au:443/<your eSpace Id> just like your url
-   c. If you are prompted to accept the certificate, enter y for yes.
-   d. Enter your site credentials when prompted.
-      User Name: 
-      i.  On you eSpace site, click on 'Sharing'
-      ii. You will see a list of users, including your name. You username is displayed next to your name. It is a long alphanumeric string.   
+Other Linux Variations
+^^^^^^^^^^^^^^^^^^^^^^
 
-      Password:
-       i.   On your eSpace site, under your username, top right hand corner, click on Preferences
-       ii.  Click on the Password tab.
-       iii. Click 'Generate new password'.
-       iv.  Your new password is displayed in the 'Info' bar.
+Linux distributions vary widely, but on any system with a command line, you can follow these instructions.
 
-   e. This tool operates in a similar fashion to FTP or SFTP with get, put and ls commands.  Enter help for more information.
+The command line tool 'cadaver' is a WebDAV client. 
+
+1. Install this program using something like yum install cadaver or apt-get install cadaver
+2. Then connect using the command: cadaver https://espaces.edu.au:443/<your eSpace Id> just like your url
+3. If you are prompted to accept the certificate, enter y for yes.
+4. Enter your site credentials when prompted.
+
+   User Name: 
+    i.  On you eSpace site, click on 'Sharing'
+    ii. You will see a list of users, including your name. You username is displayed next to your name. It is a long alphanumeric string.   
+
+   Password:
+    i.   On your eSpace site, under your username, top right hand corner, click on Preferences
+    ii.  Click on the Password tab.
+    iii. Click 'Generate new password'.
+    iv.  Your new password is displayed in the 'Info' bar.
+
+5. This tool operates in a similar fashion to FTP or SFTP with get, put and ls commands.  Enter help for more information.
