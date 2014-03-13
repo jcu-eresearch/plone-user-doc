@@ -213,6 +213,10 @@ To share with other users
    :align: center
    :width: 500px
 
+* Browse to the piece of content that you'd like to share, or browse
+  to the folder that surrounds the content if you'd like to grant
+  access to the entire folder.
+
 * Click on the **Sharing** tab 
   
 * Search for a name by typing it into the search box and clicking the
@@ -226,14 +230,21 @@ To share with other users
 * Click the **Save** button to save the changes.
 
 Inheriting permissions
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
-The ``Inherit permissions from higher level`` checkbox means that the folder
-will have the same permissions as the parent folder.
+The ``Inherit permissions from higher level`` checkbox means that the current
+content item or folder will have the same permissions as the parent folder.
+This means that the permissions are inherited **downwards** from higher levels.
 
-To enable this:
+You may wish to enable or disable this functionality depending on your security
+requirements.  For example, if you want one specific area to have customised
+security, then you may want to disable this option.  Alternatively, if you want
+security to automatically apply from the higher-level folder, leave this
+enabled.
 
-* Select the checkbox on the Sharing page.
+To enable or disable this functionality:
+
+* Select or deselect the checkbox on the Sharing page.
 
 * Click the **Save** button to save the changes.
 
