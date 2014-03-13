@@ -52,6 +52,87 @@ These states are listed below.
 +--------------------+---------------------------------------------------------------------------------------------------------+
 
 
+.. _sharing-your-content:
+
+Granting access to your content
+===============================
+
+**Sometimes you'll want to give access to individuals rather than the whole
+Internet.**
+
+You can choose to share your document with with a particular person.
+Descriptions for how to set up each of these permissions are listed below.
+
+Types of permissions
+--------------------
+
+First, make sure you're aware of which permissions you are granting individuals
+or groups of users.
+
+==========           ========================================================
+Permission           Description
+==========           ========================================================
+Can add              Allows new content objects to be created in this folder,
+                     granting access to the ``Add new`` menu. This has no
+                     effect on non-folder content.
+Can edit             Allows editing of existing content, granting access to
+                     the ``Edit`` tab against content.
+Can review           Allows the user to publish and review content, granting
+                     access to extra controls in the ``State`` menu.
+Can view             Allows the user to see private content. Use this
+                     permission to grant access to specific folders and
+                     content areas on a portal.
+==========           ========================================================
+
+
+To share with other users
+-------------------------
+
+.. note::
+
+   The creation of groups for sharing is not supported by eSpaces.
+
+.. image:: images/sharing_page.png
+   :alt: The Sharing page
+   :align: center
+   :width: 500px
+
+* Browse to the piece of content that you'd like to share, or browse
+  to the folder that surrounds the content if you'd like to grant
+  access to the entire folder.
+
+* Click on the **Sharing** tab 
+  
+* Search for a name by typing it into the search box and clicking the
+  **Search** button. You can also search for partial names, email addresses,
+  or user IDs as well.
+
+* When the appropriate entry appears, select the permissions in the same
+  row to grant different types of access.  You should refer to `Types of
+  permissions`_ mentioned above if you're unsure what each permission does.
+
+* Click the **Save** button to save the changes.
+
+Inheriting permissions
+^^^^^^^^^^^^^^^^^^^^^^
+
+The ``Inherit permissions from higher level`` checkbox means that the current
+content item or folder will have the same permissions as the parent folder.
+This means that the permissions are inherited **downwards** from higher levels.
+
+You may wish to enable or disable this functionality depending on your security
+requirements.  For example, if you want one specific area to have customised
+security, then you may want to disable this option.  Alternatively, if you want
+security to automatically apply from the higher-level folder, leave this
+enabled.
+
+To enable or disable this functionality:
+
+* Select or deselect the checkbox on the Sharing page.
+
+* Click the **Save** button to save the changes.
+
+
 Reviewing content
 =================
 
@@ -168,85 +249,6 @@ In order to upload a newer version of a file, you will need to edit that item.
 
 #. Click the Save button to commit your changes. 
 
-.. _sharing-your-content:
-
-Granting access to your content
-===============================
-
-**Sometimes you'll want to give access to individuals rather than the whole
-Internet.**
-
-You can choose to share your document with with a particular person.
-Descriptions for how to set up each of these permissions are listed below.
-
-Types of permissions
---------------------
-
-First, make sure you're aware of which permissions you are granting individuals
-or groups of users.
-
-==========           ========================================================
-Permission           Description
-==========           ========================================================
-Can add              Allows new content objects to be created in this folder,
-                     granting access to the ``Add new`` menu. This has no
-                     effect on non-folder content.
-Can edit             Allows editing of existing content, granting access to
-                     the ``Edit`` tab against content.
-Can review           Allows the user to publish and review content, granting
-                     access to extra controls in the ``State`` menu.
-Can view             Allows the user to see private content. Use this
-                     permission to grant access to specific folders and
-                     content areas on a portal.
-==========           ========================================================
-
-
-To share with other users
--------------------------
-
-.. note::
-
-   The creation of groups for sharing is not supported by eSpaces.
-
-.. image:: images/sharing_page.png
-   :alt: The Sharing page
-   :align: center
-   :width: 500px
-
-* Browse to the piece of content that you'd like to share, or browse
-  to the folder that surrounds the content if you'd like to grant
-  access to the entire folder.
-
-* Click on the **Sharing** tab 
-  
-* Search for a name by typing it into the search box and clicking the
-  **Search** button. You can also search for partial names, email addresses,
-  or user IDs as well.
-
-* When the appropriate entry appears, select the permissions in the same
-  row to grant different types of access.  You should refer to `Types of
-  permissions`_ mentioned above if you're unsure what each permission does.
-
-* Click the **Save** button to save the changes.
-
-Inheriting permissions
-^^^^^^^^^^^^^^^^^^^^^^
-
-The ``Inherit permissions from higher level`` checkbox means that the current
-content item or folder will have the same permissions as the parent folder.
-This means that the permissions are inherited **downwards** from higher levels.
-
-You may wish to enable or disable this functionality depending on your security
-requirements.  For example, if you want one specific area to have customised
-security, then you may want to disable this option.  Alternatively, if you want
-security to automatically apply from the higher-level folder, leave this
-enabled.
-
-To enable or disable this functionality:
-
-* Select or deselect the checkbox on the Sharing page.
-
-* Click the **Save** button to save the changes.
 
 
 Enabling next/previous folder navigation
