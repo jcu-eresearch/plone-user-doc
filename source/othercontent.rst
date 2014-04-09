@@ -268,13 +268,28 @@ like this:
 .. image:: images/new_form.png
    :alt: Newly created form
    :align: center
+   :width: 250px
 
 
-Adding form fields
-------------------
+Using the Quick Editor
+----------------------
+
+Your form also comes with a simple Quick Editor, which allows you to drag
+and drop fields onto your page, as well as easily edit and update 
+your other form features.  You should familiarise yourself with 
+`Form fields`_ and `Form features`_ so you know what's what.
+
+.. image:: images/form_quickeditor.png
+   :alt: Example form quick editor 
+   :align: center
+   :width: 400px
+
+Form fields
+-----------
 
 Once your form is created, you can add any number of fields to the form.
 Each of the fields has a different purpose.  To add any of these to the form,
+either use the Quick Editor (see `Using the Quick Editor`_), or otherwise
 click the **Add New** drop-down menu, and choose the type of field you wish
 to add.  You can hover your mouse over a field to see its description rather
 than needing to rely on this list.
@@ -282,6 +297,7 @@ than needing to rely on this list.
 .. image:: images/form_fields.png
    :alt: Example form fields
    :align: center
+   :height: 300px
 
 =====================           =============================
 Field                           Description
@@ -330,9 +346,11 @@ available options (for selection or multi-selection fields), and so forth.
 You can add new fields and change options with the knowledge you can easily
 change things as you need at any time.
 
+Once you've added your form field, you can see the result of the rendered
+field by clicking back to your form.  
 
-Special features
-----------------
+Form features
+-------------
 
 In addition to fields, there are also a number of form helpers that you can use.
 These are added into your form in the same way as fields, by using the **Add new**
@@ -344,9 +362,11 @@ Special features
 Image                           Standard image for inclusion in pages or thank you pages.
 Page                            Standard page content. May be useful for extra help pages for forms.
 Thanks Page                     A thank-you page that can be displayed after a form submission is
-                                successful.  One is added automatically to new forms.
+                                successful.  One is added automatically to new forms. Configure
+                                which Thanks page to use via the Edit tab on your main form.
 Mailer Adapter                  Enables a form to email submission results to recipients.
-                                Enabled by default for forms.
+                                Enabled by default for forms, but you will need to configure
+                                your email address for sending.
 Save Data Adapter               Enables a form to save its data in a online-stored file.
                                 Users' submissions are added into this CSV or TSV file and it
                                 can be downloaded at any time by a suitable user.
