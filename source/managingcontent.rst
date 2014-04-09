@@ -243,7 +243,7 @@ In order to upload a newer version of a file, you will need to edit that item.
 
 #. Only the fields with a red box are required, as when you create the content
    originally.
-
+.
 #. To update your file, click the **Replace with new file** radio button, and
    click the **Browse** button to select the new version of the file.
 
@@ -269,4 +269,35 @@ To add next/previous navigation:
 * Enable the checkbox marked **Enable next previous navigation**.
 
 * Click the **Save** button.
+
+
+Sorting folder contents
+=======================
+
+eSpaces provides a helpful view for re-ordering the contents of folders, and
+allows sorting on a number of different criteria.  
+
+.. note::
+   Remember that folder ordering is not automatically applied. You will need to
+   follow this process whenever the order should be updated.
+
+
+To access the sorting view:
+
+#. Browse to the folder that you wish to re-order.  Ensure you are looking at
+   the ``View`` tab, which will be the main folder view.
+
+#. Click the ``Actions`` drop-down menu, and click ``Sort folder``
+
+   .. image:: images/sort_folder.png
+      :alt: Sort folder menu
+      :align: center
+
+#. Choose the criteria you wish to sort on, enabling the reverse sorting
+   option, if so desired.
+
+#. Click ``Sort`` to complete the process.
+
+#. Inspect the results in the contents listing.  To re-order contents,
+   click back to the ``View`` tab and start again.
 
