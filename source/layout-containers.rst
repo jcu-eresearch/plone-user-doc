@@ -17,7 +17,7 @@ list.
 | Folder view             | Description                                     |
 +=========================+=================================================+
 | Properties view         | Shows all the properties in the folder.         |
-|                         | Only visible on eSpaces.                        |
+|                         | Only visible on |project-name|.                 |
 +-------------------------+-------------------------------------------------+
 | Summary view            | Lists the title and description of the content  |
 +-------------------------+-------------------------------------------------+
@@ -45,3 +45,19 @@ Deselecting a default view
 If a folder has a default view configured, you can de-select this by
 simply selecting another `Display View`_.  If you'd like the default
 appearance for a folder to be restored, choose ``Summary view``.
+
+
+Sorting a folder
+----------------
+
+Using the ``Contents`` view for a folder, you can manually drag-and-drop the
+content items in any particular order you'd like.  However, if you'd like
+to simplify this process, you can sort a folder's contents automatically
+on one of a number of criteria.  This is particularly helpful if you have
+many folder items and they need to be sorted by title, modification date
+or similar.  To do this:
+
+#. Browse to the main view of the folder you wish to modify. Make sure you're
+   looking at the folder with the ``View`` tab selected.
+
+#. Click the ``Actions`` drop-down menu and click ``

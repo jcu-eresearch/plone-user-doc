@@ -1,6 +1,6 @@
 User features
 *************
 
-.. include:: dashboard.rst
+.. include:: features-dashboard.rst
 
-.. include:: preferences.rst
+.. include:: features-preferences.rst

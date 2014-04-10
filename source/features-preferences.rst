@@ -29,7 +29,7 @@ Each person with an account on Plone can set their own personal preferences.
 You can set your preferences for all of the items listed below:
 
 Personal Information
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 +-----------------+-------------------------------------------------+
 | Metadata        | Description                                     |
@@ -57,7 +57,7 @@ Personal Information
 
 
 Personal Preferences
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 +-------------------------+---------------------------------------------------+
 | Metadata                | Description                                       |
