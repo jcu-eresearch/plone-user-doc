@@ -11,15 +11,16 @@ Basic Portal Use
 .. toctree::
    :maxdepth: 2
 
-   introduce
-   addedit
-   managingcontent
-   othercontent
-   layoutanddesign
-   collaboration
-   user-features
+   introduction
+   content-creation
+   content-management
+   content-special
+   layout-customisation
+   features-collaboration
+   features-user
    faq
    glossary
+
 .. commented out as not relevant to espaces currently
 .. customisation
 
