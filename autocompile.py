@@ -10,22 +10,27 @@ is detected. |cmd| is optional and defaults to 'make'.
 Example:
 ./autocompile.py /my-latex-document-dir .tex "make pdf"
 
-Dependancies:
+Dependencies:
   Linux, Python 2.x, Pyinotify
 """
 
+from __future__ import print_function
 import sys
 import pyinotify
+if sys.version_info.major >= 3:
+    from subprocess import getoutput
+else:
+    from commands import getoutput
+import re
 
-import commands, re
 
 def checkResult(command_output, regex, doc_type):
     result_value = True
     search_result = re.search(regex, command_output)
     if search_result and search_result.group(0):
-        print 'SUCCESS: %s built okay.' % doc_type
+        print('SUCCESS: %s built okay.' % doc_type)
     else:
-        print 'FAIL: %s build not okay.' % doc_type
+        print('FAIL: %s build not okay.' % doc_type)
         result_value = False
     return result_value
 
@@ -37,34 +42,39 @@ class OnWriteHandler(pyinotify.ProcessEvent):
         self.cmd = cmd
 
     def _run_cmd(self):
-        print '==> Modification detected'
-        result = commands.getoutput(self.cmd)
-        html_result = checkResult(result, 'The HTML pages are in (.*)\.', 'HTML')
-        latex_result = checkResult(result, 'Output written on (.*)\.pdf', 'LaTeX')
+        print('==> Modification detected')
+        result = getoutput(self.cmd)
+        html_result = checkResult(result,
+                                  'The HTML pages are in (.*)\.', 'HTML')
+        latex_result = checkResult(result,
+                                   'Output written on (.*)\.pdf', 'LaTeX')
         if html_result and latex_result:
-            print 'OKAY: Waiting now until next ReST modification'
+            print('OKAY: Waiting now until next ReST modification')
         else:
-            print 'BUILD FAILED: Traceback in-bound...'
-            print result
+            print('BUILD FAILED: Traceback in-bound...')
+            print(result)
 
     def process_IN_MODIFY(self, event):
         for ext in self.extensions:
-            if not event.pathname.endswith(ext): return
+            if not event.pathname.endswith(ext):
+                return
         self._run_cmd()
+
 
 def auto_compile(path, extension, cmd):
     wm = pyinotify.WatchManager()
     handler = OnWriteHandler(cwd=path, extension=extension, cmd=cmd)
     notifier = pyinotify.Notifier(wm, default_proc_fun=handler)
     wm.add_watch(path, pyinotify.ALL_EVENTS, rec=True, auto_add=True)
-    print '==> Start monitoring %s (type c^c to exit)' % path
+    print('==> Start monitoring %s (type c^c to exit)' % path)
     notifier.loop()
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
         import autocompile
-        print >> sys.stderr, "Command line error: missing argument(s).\n" \
-                + autocompile.__doc__
+        error = "Command line error: missing argument(s).\n" + \
+            autocompile.__doc__
+        print(error, file=sys.stderr)
         sys.exit(1)
 
     # Required arguments
@@ -78,4 +88,3 @@ if __name__ == '__main__':
 
     # Blocks monitoring
     auto_compile(path, extension, cmd)
-
