@@ -1,17 +1,18 @@
-.. Plone User Documentation documentation master file, created by
-   sphinx-quickstart on Tue Feb 16 15:30:03 2010.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 .. _plone-index:
 
-Basic Portal Use
-================
+|project-name| User Guide
+=========================
+
+This documentation covers the most important aspects to |project-name|,
+including an introduction to content managment, a layout overview, and
+information about site management.
 
 .. toctree::
    :maxdepth: 2
 
    introduction
+   custom-espaces
+   gettingstarted-login
    content-creation
    content-management
    content-special

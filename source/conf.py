@@ -12,6 +12,7 @@
 # serve to show the default.
 
 import sys, os
+import datetime
 import sphinx_bootstrap_theme
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -20,6 +21,37 @@ import sphinx_bootstrap_theme
 #sys.path.append(os.path.abspath('.'))
 
 # -- General configuration -----------------------------------------------------
+
+
+def setup(app):
+    app.add_config_value('metadata', {}, 'env')
+    app.add_config_value('tags', [], 'env')
+
+
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+metadata = {
+    'project': {
+        'name': u'eSpaces',
+        'shortname': 'eSpacesUserDocumentation',
+        'team': u'eResearch Centre, James Cook University',
+        'url': 'https://espaces.edu.au',
+        'server-scheme': 'https',
+        'server-host': 'espaces.edu.au',
+        'server-port': 443,
+        'auth': 'aaf',
+        'security': 'mixed'
+    }
+}
+current_year = datetime.datetime.now().year
+
+# Add these tags via command line generation
+tags.add('forms')
+tags.add('folder-sorting')
+tags.add('files-images-have-state')
+tags.add('user-portlet-management')
+#tags.add('group-management')
+tags.add('admin')
+
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
@@ -38,8 +70,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'eSpaces User Documentation'
-copyright = u'CC-BY-NC 2013 eResearch Centre, James Cook University'
+project = u'%s Documentation' % metadata['project']['name']
+copyright = u'CC-BY-NC %i %s' % (current_year, metadata['project']['team'])
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -72,7 +104,12 @@ exclude_trees = []
 
 #A list of global patterns that should be excluded when looking for files. 
 #The following have been included to prevent a warning as they are not used in the toctree. 
-exclude_patterns = ["containers.rst", "customisation.rst", "dashboard.rst", "homepage.rst", "login.rst", "preferences.rst"]
+exclude_patterns = ["containers.rst",
+                    "customisation.rst",
+                    "dashboard.rst",
+                    "homepage.rst",
+                    "login.rst",
+                    "preferences.rst"]
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 #add_function_parentheses = True
@@ -91,12 +128,20 @@ pygments_style = 'sphinx'
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
 
+# A string of reStructuredText that will be included at the end of every source
+# file that is read. This is the right place to add substitutions that should
+# be available in every file.
+rst_epilog = '\n'
+for key, value in metadata['project'].items():
+    replacement = '.. |project-%s| replace:: %s\n' % (key, value)
+    rst_epilog += replacement
 
 # -- Options for HTML output ---------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
-html_theme = 'bootstrap'
+#html_theme = 'bootstrap'
+html_theme = 'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -109,12 +154,16 @@ html_theme_options = {
 # such as "amelia" or "cosmo".
 #
 # Note that this is served off CDN, so won't be available offline.
-'bootswatch_theme': "spacelab",
-                      
+    #'bootswatch_theme': "spacelab",
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+#html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+
+if not on_rtd:
+    import sphinx_rtd_theme
+    html_theme = 'sphinx_rtd_theme'
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -173,7 +222,7 @@ html_show_sourcelink = False
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PloneUserDocumentationdoc'
+htmlhelp_basename = metadata['project']['shortname']
 
 # -- Options for LaTeX output --------------------------------------------------
 
@@ -181,9 +230,9 @@ htmlhelp_basename = 'PloneUserDocumentationdoc'
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index',
-   'PloneUserDocumentation.tex',
-   u'eSpaces User Documentation',
-   u'eSpaces Team',
+   '%s.tex' % metadata['project']['shortname'],
+   u'%s Documentation' % metadata['project']['name'],
+   metadata['project']['team'],
    'manual'),
 ]
 

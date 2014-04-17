@@ -1,65 +1,120 @@
 Frequently Asked Questions - FAQ
 ================================
 
+I've created a page, but my custom script/embed/Flash/widget is being stripped
+------------------------------------------------------------------------------
+
+By default, |project-name| is configured to strip out all potentially dangerous
+HTML from content being included.  The reason for this is that untrusted input,
+especially from ``iframe`` and ``script`` elements can compromise site
+security.
+
+Contact your site administrator for more information and details about what
+other options you may have for including your content.
+
+
 The title bar is hiding my logo
 -------------------------------
 
 The title bar layout applies to all eSpaces and is designed for improve accessibilty. If your logo is 
 hidden or obscured as shown below, eSpaces recommends reducing the number of first level items in your 
-eSpace and keeping the titles short and descriptive.   
+eSpace and keeping the titles short and descriptive.
 
 .. image:: images/hidden_logo.png
    :alt: My logo is obscured
    :align: center
    :scale: 50%
-   
+
 Our suggestion is to group content into separate logical areas. The top level navigation items
 in an eSpace also represent the menu on mobile devices and thus should be kept to a minimum. 
 Following these suggestions will aid in the usability and presentation of your site and ensure 
 your logo is visible.
 
+
+.. _transferring-files:
+
 Transferring files
 ------------------
+
+The |project-name| service provides a WebDAV interface for the transfer of
+multiple files and folders.
+
+
+Obtaining your username and password
+------------------------------------
+
+.. ifconfig:: metadata['project']['auth'] == 'aaf'
+
+    On |project-name|, authentication typically occurs with existing research
+    institution credentials using Single-Sign-On.  Because your credentials
+    are only ever managed by you institution, you must utilise the special
+    credentials local to |project-name|.
+
+    #. Username:
+
+       #. On your |project-name| site, click on ``Sharing``.
+       #. You will see a list of users, including your name. Your username is
+          displayed next to your name. It is a long alphanumeric string.
+
+    #. Password
+
+       #. On your |project-name| site, under your username, top right hand
+          corner, click on ``Preferences``.
+       #. Click on the Password tab.
+       #. Click ``Generate new password``.
+
+
+.. ifconfig:: metadata['project']['auth'] != 'aaf'
+
+   The credentials you log into |project-name| with are the same that you
+   should utilise for connecting to transfer files.  If you have forgotten your
+   username or password, you will need to obtain these before proceeding.
+
 
 Uploading Multiple Files and Folders (Windows)
 ----------------------------------------------
 
 We recommend you use Cyberduck
 
-1. Go to http://cyberduck.io/ and download Cyberduck.
-2. Open the setup file you downloaded. Install Cyberduck.
-3. Launch Cyberduck from desktop or start menu.
-4. Click onto the 'Open Connection' button on the toolbar.
+#. Go to http://cyberduck.io/ and download Cyberduck.
+#. Open the setup file you downloaded and install Cyberduck.
+#. Launch Cyberduck from the desktop or start menu.
+#. Click onto the ``Open Connection`` button on the toolbar.
 
-.. image:: images/cyberduck-openconnection.png
-   :alt: Open Connection
+   .. image:: images/cyberduck-openconnection.png
+      :alt: Open Connection
 
-.. image:: images/cyberduck-settings.png
-   :alt: Cyberduck Settings
-   :align: right
+   .. image:: images/cyberduck-settings.png
+      :alt: Cyberduck Settings
+      :align: right
 
-5. In the pop-up window, enter your connection details as shown at the right.
+#. In the pop-up window, configure the connection as follows:
 
-   a. Select 'WebDAV (HTTP/SSL)' from the top drop-down menu.
-   b. Server:   espaces.edu.au
-   c. Port:     443
-   d. Uncheck 'Anonymous Login'
-   e. Username: 
+   #. Select ``WebDAV (HTTP/SSL)`` from the top drop-down menu.
+   #. Server: |project-server-host|
+   #. Port: |project-server-port|
+   #. Uncheck ``Anonymous Login``
+   #. Username: 
 
-      i. On your eSpace site, click on 'Sharing'
-      ii. You will see a list of users, including your name. You username is displayed next to your name. It is a long alphanumeric string.   
+      #. On your eSpace site, click on ``Sharing``.
+      #. You will see a list of users, including your name. Your username is
+         displayed next to your name. It is a long alphanumeric string.
 
-   f. Password 
+   #. Password
 
-      i.   On your eSpace site, under your username, top right hand corner, click on Preferences
-      ii.  Click on the Password tab.
-      iii. Click 'Generate new password'.
+      #. On your eSpace site, under your username, top right hand corner, click
+         on Preferences.
+      #. Click on the Password tab.
+      #. Click 'Generate new password'.
    
-   g. Path: "/<your eSpace Id>/" Obtain this from the url. e.g. https://espaces.edu.au/jay-test/
+   #. Path: "/<your eSpace Id>/" Obtain this from the url. e.g. https://espaces.edu.au/jay-test/
    
-6. Click onto 'Connect' and your home folder should appear.
-7. Now, drag and drop files to and from your desktop to this window, the folder on the site you've just connected to.
-8. To save this connection, click onto the 'Bookmark' menu, and then 'New Bookmark'.  Enter and confirm any details you need and your bookmark is ready for easy access.
+#. Click onto 'Connect' and your home folder should appear.
+#. Now, drag and drop files to and from your desktop to this window, the folder
+   on the site you've just connected to.
+#. To save this connection, click onto the 'Bookmark' menu, and then 'New
+   Bookmark'.  Enter and confirm any details you need and your bookmark is
+   ready for easy access.
 
 
 Uploading Multiple Files and Folders (Mac)
