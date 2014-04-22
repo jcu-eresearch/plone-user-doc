@@ -44,6 +44,22 @@ contents within a folder. The standard views are listed below.
 |                         | :ref:`default-view` for more information.          |
 +-------------------------+----------------------------------------------------+
 
+Determining the current view
+----------------------------
+
+In order to determine the current view for a given folder:
+
+#. Browse to the given folder you would like to change.
+
+#. Click the ``Display`` drop-down menu.
+
+#. Note the highlighted view in the menu listing.  This is the current 
+   view configuration.
+
+
+Changing the view
+-----------------
+
 In order to change the view of a given folder:
 
 #. Browse to the given folder you would like to change.
