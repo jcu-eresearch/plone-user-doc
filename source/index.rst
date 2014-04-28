@@ -17,8 +17,7 @@ information about site management.
    content-management
    content-special
    layout-customisation
-   features-collaboration
-   features-user
+   interacting
    faq
    glossary
 

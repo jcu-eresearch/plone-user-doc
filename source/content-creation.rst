@@ -318,7 +318,9 @@ In order to control various aspects of how your content interacts with
 To see the complete overview of what metadata can be modified for a given
 content item:
 
-#. Browse to and access the edit interface using the ``Edit`` link.
+#. Browse to the content item you wish to modifiy.
+
+#. Click on the ``Edit`` tab to access the edit interface.
 
 #. Look for these collapsed tabs on the page:
 
