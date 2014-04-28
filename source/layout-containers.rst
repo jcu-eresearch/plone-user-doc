@@ -4,8 +4,20 @@ Folder display options
 Display View
 ------------
 
+Within |project-name|, site structure is developed using folders, some of
+which can be nested inside of each other and moved around as required.  How each
+folder appears to a visitor or site user depends on what content items are
+inside that folder and how the folder's display view is configured.  
+For instance, a folder with a number of images inside could be displayed as a
+gallery; a folder with files could list those files; or a folder with a page 
+inside can be customised to display a home-page instead of an automated list.
+
 |project-name| provides several different manners in which to display the
-contents within a folder. The standard views are listed below.  
+contents within a folder. The standard views are listed below.
+
+.. note::
+   Keed in mind that the top-level of any site is also a folder, and has 
+   the same configurability for display.
 
 +-------------------------+----------------------------------------------------+
 | Folder view             | Description                                        |
@@ -31,6 +43,22 @@ contents within a folder. The standard views are listed below.
 |                         | (``default view``) for this folder. See            |
 |                         | :ref:`default-view` for more information.          |
 +-------------------------+----------------------------------------------------+
+
+Determining the current view
+----------------------------
+
+In order to determine the current view for a given folder:
+
+#. Browse to the given folder you would like to change.
+
+#. Click the ``Display`` drop-down menu.
+
+#. Note the highlighted view in the menu listing.  This is the current 
+   view configuration.
+
+
+Changing the view
+-----------------
 
 In order to change the view of a given folder:
 
