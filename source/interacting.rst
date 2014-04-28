@@ -45,9 +45,9 @@ Enabling or disabling comments
 #. The page will reload and display your content with its new settings applied.
 
 
-If you selected commenting to be enabled, the comments field will be displayed.
-Likewise, if you selected commenting to be disabled, comments will no longer be
-shown and the ability to add comments will be removed.
+If you enabled commenting, the comments field will be displayed.  Likewise, if
+you disabled commenting, comments will no longer be shown and the ability to
+add comments will be removed.
 
 
 Adding comments
@@ -64,17 +64,48 @@ Adding comments
 
 #. Type your comments in to the field provided.
 
-#. To save the comment, click the *Comment*.
+#. To save the comment, click the ``Comment`` button. You have the option of
+   having |project-name| notify you via email of new comments made on the
+   content by selecting the option provided.
 
-#. Your comments appear inline underneath the content.
+#. Your comments will appear underneath the content on the page.
 
 
 Replying to comments
 --------------------
 
+Replying to existing comments follows the same process as `Adding comments`_
+above. 
+
+#. Browse to the content item you wish to add a comment to.
+
+#. Locate the *Comments* section at the bottom of the page. Depending on how
+   long your page content is, you may need to scroll down the page.
+
+#. Locate the comment that you wish to respond to and click the ``Reply``
+   button against the comment.
+
+#. Follow the remaining steps for `Adding comments`_.
+
 
 Removing comments
 -----------------
+
+.. note::
+   You must have access as a ``Reviewer`` (*Can Review* permission) in order to
+   remove existing comments from content.  If you cannot see the ``Delete``
+   button, you need to contact your site administrator for access.
+
+#. Browse to the content item you wish to add a comment to.
+
+#. Locate the *Comments* section at the bottom of the page. Depending on how
+   long your page content is, you may need to scroll down the page.
+
+#. Locate the comment that you wish to respond to and click the ``Delete``
+   button against the comment.
+
+#. The page will reload and show that the given comment has been removed.
+
 
 
 Searching for content
@@ -86,12 +117,13 @@ documents and other content within the site.
 .. image:: images/search.png
    :alt: Search
 
-Enter text in the search box, and the site will search for all content
-which includes that string in either the metadata or the text of the document.
-This includes aspects such as the title of the content item, the description,
-tags, and even full-text inside files such as PDFs and Microsoft Office
-documents.
+Enter text in the search box, and press the :kbd:`Enter` or :kbd:`Return` key
+on your keyboard.  The site will search for all content which includes that
+string in either the metadata or the text of the content. This includes
+aspects such as the title of documents, descriptions, tags, and even
+full-text inside files such as PDFs and Microsoft Office documents.
 
-.. note::
+.. important::
    The search results will only ever show items that you have access to.  This
-   also applies when logged out - no private content will ever be revealed.
+   also applies when logged out. No private content will ever be revealed
+   to users unless permission has been granted.
