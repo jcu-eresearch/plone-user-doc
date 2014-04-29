@@ -50,6 +50,7 @@ tags.add('folder-sorting')
 tags.add('files-images-have-state')
 tags.add('user-portlet-management')
 #tags.add('group-management')
+tags.add('bootstrap-theme')
 tags.add('admin')
 
 

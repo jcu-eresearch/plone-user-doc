@@ -127,3 +127,155 @@ full-text inside files such as PDFs and Microsoft Office documents.
    The search results will only ever show items that you have access to.  This
    also applies when logged out. No private content will ever be revealed
    to users unless permission has been granted.
+
+
+.. _transferring-files:
+
+Transferring multiple files and folders
+=======================================
+
+The |project-name| service provides a WebDAV interface for the transfer of
+multiple files and folders.
+
+
+.. _webdav-username-password:
+
+Obtaining your username and password
+------------------------------------
+
+
+.. ifconfig:: metadata['project']['auth'] != 'aaf'
+
+   The credentials you log into |project-name| with are the same that you
+   should utilise for connecting to transfer files.  If you have forgotten your
+   username or password, you will need to obtain these before proceeding.
+
+
+.. ifconfig:: metadata['project']['auth'] == 'aaf'
+
+    On |project-name|, authentication typically occurs with existing research
+    institution credentials using Single-Sign-On.  Because your credentials
+    are only ever managed by you institution, you must utilise the special
+    credentials local to |project-name|.  To find these details:
+
+    * Username:
+
+      .. important::
+         Your username is your ``Shared Token``. This is a long alphanumeric
+         set of characters and is *not* your local institutional login.
+
+      #. On your |project-name| site, locate any content item and click on
+         ``Sharing``.
+      #. You will see a list of users, including your name. Your username is
+         displayed next to your name. It is a long alphanumeric string, and
+         **excludes** the brackets.
+      #. If your name is not displayed here, use the search box to find
+         your own account.
+
+    * Password:
+
+       #. On |project-name|, ensure that you are logged in.
+       #. Click onto the top-right menu showing your name.
+       #. Click ``Preferences``.
+       #. Click on the ``Password`` tab.
+       #. Click the ``Generate new password`` button.
+       #. Take note of your generated password for use later.
+
+WebDAV clients
+--------------
+
+Any standards-compliant WebDAV client should be able to connect to
+|project-name| in order to transfer files and folders.  However, whilst there
+are many clients that exist, including those which may be built-in to certain
+operating systems (such as Windows and Mac), we recommend you use our
+suggestions for an improved experience.
+
+
+Transferring multiple files (Microsoft Windows and Apple Mac)
+-------------------------------------------------------------
+
+.. important..
+   For older versions of Mac OS X, it is possible to use the built-in Finder
+   client (10.4 and 10.5), or `Goliath <http://www.webdav.org/goliath>`_ (10.3
+   or earlier).
+
+The recommended client is Cyberduck.
+
+#. Go to http://cyberduck.io/ and download Cyberduck.
+
+#. For Windows, open the setup file you downloaded and install Cyberduck.
+   For Mac, open the downloaded disk image and copy the Cyberduck application
+   to your local computer. Typically, you should copy this into your
+   ``Applications`` folder.
+
+#. Launch Cyberduck from the desktop or start menu (Windows) or from your
+   Applications folder (Mac).
+
+#. Click onto the ``Open Connection`` button on the toolbar.
+
+   .. image:: images/cyberduck-openconnection.png
+      :alt: Open Connection
+
+#. In the pop-up window, configure the connection as follows:
+
+   .. image:: images/cyberduck-settings.png
+      :alt: Cyberduck Settings
+      :align: right
+
+   #. Select ``WebDAV (HTTP/SSL)`` from the top drop-down menu.
+   #. *Server*: |project-server-host|
+   #. *Port*: |project-server-port|
+   #. Uncheck ``Anonymous Login``
+   #. *Username*: see :ref:`webdav-username-password`.
+   #. *Password*: see :ref:`webdav-username-password`.
+   #. *Path*: The path entered here will be the starting folder that you
+      connect to. For example, to connect to the top-level of the site,
+      leave this empty; or, to connect to a specific folder or sub-site,
+      enter ``/path/to/folder``, adjusting this example to fit your given
+      URL.
+
+#. Click onto ``Connect`` and you will be connected to |project-name|.
+
+
+Now, you can drag and drop files from your local computer both to and from your site using this connection window.
+
+To save this connection, click onto the ``Bookmark`` menu, and then ``New
+Bookmark``.  Confirm that the details entered are correct and save your
+bookmark.  Your bookmark is ready for easy access from Cyberduck's main
+listing.
+
+
+Uploading Multiple Files and Folders (Linux)
+--------------------------------------------
+
+Linux distributions vary widely, but on any system with access to the command
+line and ability to install software, you can follow these instructions.
+
+The recommended client is a command line tool called ``cadaver``. Distributions
+that operate using GNOME with Nautilus as their file manager can also utilise
+the built-in ``Connect to Server`` functionality, should you want to use a GUI.
+
+#. Install ``cadaver``. Two common installation commands are::
+
+       yum install cadaver
+
+   or::
+
+       apt-get install cadaver
+
+#. Launch or otherwise access a terminal on your machine.
+
+#. Start and connect to |project-name| with ``cadaver``, specifying the first
+   argument to the command as the URL you want to connect to.  This example
+   demonstrates connecting directly to a folder on |project-name|::
+
+       cadaver |project-url|/my-site/folder
+
+#. If you are prompted to accept the certificate, enter ``y`` for yes.
+
+#. Enter your site credentials when prompted. See
+   :ref:`webdav-username-password` if you require these credentials.
+
+#. This tool operates in a similar fashion to the ``ftp`` or ``sftp`` commands,
+   with ``get``, ``put`` and ``ls`` commands.  Enter ``help`` for more
+   information.
