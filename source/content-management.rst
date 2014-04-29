@@ -285,7 +285,7 @@ come a time that you need to publish content to the public.
 #. Browse to the content item that you would like to make public. It is also
    possible to publish a folder as well using the same process.
 
-#. Click :menuselection:``State --> Publish``.
+#. Click :menuselection:`State --> Publish`.
 
    a. If you can't see this, then you don't have access to publish documents.
       If you feel you should have this access, you'll need to contact your
