@@ -318,7 +318,7 @@ In order to control various aspects of how your content interacts with
 To see the complete overview of what metadata can be modified for a given
 content item:
 
-#. Browse to the content item you wish to modifiy.
+#. Browse to the content item you wish to modify.
 
 #. Click on the ``Edit`` tab to access the edit interface.
 
@@ -404,11 +404,83 @@ Table of contents
     most effective.
 
 
+.. _renaming-content:
+
 Renaming content
 ================
 
 Within |project-name|, content is identified using short names, which are
-unique within any given folder or area.  This ID is automatically generated
-based upon the ``Title`` that was specified when the content was first
-created.  In some cases, this short name will be either overly complicated or
-simply not indicative of what the 
+unique within any given folder or area and are used as part of the item's URL;
+you'll see the identifier in your web browser's address bar.
+
+This ID is automatically generated based upon the ``Title`` that was specified
+when the content was first created.  This will automatically remove any
+special characters that are disallowed in URLs and attempt to normalise the
+short name.
+
+In some cases, the default short name assigned will be either overly
+complicated or simply not indicative of what the content consists of.  The
+good news is that you can easily adjust the short name to be anything you'd
+like.
+
+.. _links-maintained:
+
+.. note::
+   Don't worry about existing links to your content!  |project-name| will
+   automatically keep track of all of your old short names and URLs such that
+   anyone still using old links will be redirected automatically to the new
+   address.  Any links within your own content on |project-name| will
+   automatically point to the new short.
+
+To do this, decide whether you wish to rename just one item or several:
+
+Renaming one content item or folder
+-----------------------------------
+
+#. Browse to the given content item or folder you wish to rename.
+
+#. Click :menuselection:`Actions --> Rename`.
+
+#. Adjust the short name or title as required.
+
+#. Click ``Rename all`` to complete the process.
+
+#. Your content is now accessible using the new short name and URL.
+   See the `note above <links-maintained_>`_ for details.
+
+
+Renaming several items at once
+------------------------------
+
+#. Browse to the folder that holds the content items or folders you wish to
+   rename.
+
+#. Click ``Contents`` to view the main contents listing for the folder.
+
+#. Select the checkboxes next to each item in the listing you wish to rename.
+
+#. Click the ``Rename`` button at the very bottom of the listing.
+
+#. Adjust the short names or titles as required. You do not need to change
+   every field that is present, only what you want to modify.
+
+#. Click ``Rename all`` to complete the process.
+
+#. Your content is now accessible using the new short name and URL.
+   See the `note above <links-maintained_>`_ for details.
+
+
+Benefits
+--------
+
+Benefits of simple, descriptive short names will help in several ways:
+
+* Shorter identifiers make for shorter URLs.  Google and other search engines
+  will value shorter, descriptive addresses and rank your content higher.
+
+* Remember that users may be typing in your web URL directly. Shorter URLs
+  will help anyone doing this.  This is especially useful if you're creating
+  publications or emailing links to people.
+
+* Having a shorter URL with clear words will make identifying what your page
+  is about easier.
