@@ -47,3 +47,39 @@ other options you may have for including your content.
     logo is visible.
 
 
+I can't edit or modify content
+------------------------------
+
+Each content item on the |project-name| has certain, assigned access rights.
+Only creators, editors, and site administrators are typically allowed to
+edit content, unless explicit permission is granted to a specific user or group.
+
+If you would like edit access on a particular content item, you should contact
+the creator of the content and request that you be granted access.  is listed
+just below the title and description of the item.
+
+
+How can I grant access to my documents?
+---------------------------------------
+
+For full details on how to grant specific users access to your content,
+see :ref:`sharing-your-content`.
+
+How can I find a page that I created?
+-------------------------------------
+
+Use the search functionality, available at the top of any (and every) page.
+Enter keywords into the search box and press :kbd:`Enter` or :kbd:`Return`
+to start your search.
+
+Otherwise, if you know where the content should be, remember to check the
+``Contents`` tab against the given folder.  You may have inadvertently enabled
+the ``Exclude from navigation`` option on your content, causing it to be hidden
+from standard listings.
+
+
+How can I reorder content within a folder?
+------------------------------------------
+
+See :ref:`folder-sorting` for details on how to adjust the ordering of content
+within a given folder.

@@ -110,6 +110,7 @@ and set the folder to use this page as the default view for the folder.
    folder. Keep in mind that you will need to publish this page for other
    users to see it.
 
+.. _sorting-a-folder:
 
 Sorting a folder
 ================

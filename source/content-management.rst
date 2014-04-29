@@ -106,11 +106,23 @@ Granting access to your content
    a group of users.  Granting access by groups is dependent on how the site
    administrator has configured the system.
 
+.. important::
+   Keep in mind if you see this message:
+
+   .. image:: images/default_view.png
+      :alt: The default view message
+      :align: center
+
+   then you should take care to decide whether you want permissions to apply to
+   this content item (the default view for the folder) or whether you want the
+   permissions to apply to the **whole** folder.  In almost all cases, you will
+   want to click the ``go here`` link and apply permissions to the folder.
 
 .. image:: images/sharing_page.png
    :alt: The sharing page
    :align: center
    :width: 500px
+
 
 In order to selectively grant access to some content:
 
@@ -131,6 +143,20 @@ In order to selectively grant access to some content:
 #. Click the ``Save`` button to make the changes. Permission changes take
    effect immediately.
 
+
+Sharing with all logged in users
+--------------------------------
+
+.. note::
+    Be extremely careful and ensure this behaviour is what
+    you want.  Contact your site administrator if you're unsure.
+
+It is possible to share content with anyone who is able to log into
+|project-name| by selecting the ``Logged-in Users`` entry that appears on the
+``Sharing`` tab, and granting permissions to this special group of users.
+
+Keep in mind that by providing access in this way, all users on your site
+(which may be many different users) will be granted permission to your content.
 
 Inheriting permissions
 ----------------------
@@ -213,7 +239,7 @@ states are listed below:
 |           | * Content managers can retract back to being **Private**.        |
 +-----------+------------------------------------------------------------------+
 
-.. ifconfig:: 'files-images-have-state' not in metadata['features']
+.. only:: files-images-have-state
 
    For |project-name|, ``File`` and ``Image`` content types
    are configured specially to inherit the parent folder's workflow state.
@@ -381,3 +407,23 @@ if necessary.
 The same workflow associated with normal content applies to folders, so refer
 to :ref:`creating-public-content` for more information.
 
+
+Checking access permissions
+===========================
+
+There are a number of different areas where permissions can be granted in
+order to allow other users or the public access to your content.  The
+following is a summary of where to look and what to check if you're
+experiencing any issues with access:
+
+#. Check the workflow state of the item (the :menuselection:`State`
+   menu). In order to only share with select people, ensure the state is
+   set to private.
+
+#. Check the ``Sharing`` tab on the content item.  This view displays
+   all applicable customised permissions, including those that are
+   being inherited from parent or higher-level folders.
+
+#. Check the permission inheritance setting on the ``Sharing`` view.
+   This can be toggled on or off to control whether permissions from
+   parent folders are inherited by this content.

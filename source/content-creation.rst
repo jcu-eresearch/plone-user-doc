@@ -45,7 +45,7 @@ Collection
     a certain type is grouped together. Collections can only be added by an
     administrator.
 
-.. ifconfig:: 'ploneformgen' in metadata['features']
+.. only:: ploneformgen
 
     Form Folder
         A special folder that is used to build a form. Form folders can have
@@ -402,3 +402,13 @@ Table of contents
     given page is lengthy. Ensure that your page content is divided up into
     logical sections, with appropriate headings and subheadings for this to be
     most effective.
+
+
+Renaming content
+================
+
+Within |project-name|, content is identified using short names, which are
+unique within any given folder or area.  This ID is automatically generated
+based upon the ``Title`` that was specified when the content was first
+created.  In some cases, this short name will be either overly complicated or
+simply not indicative of what the 

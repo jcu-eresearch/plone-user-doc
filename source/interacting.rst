@@ -153,10 +153,19 @@ Obtaining your username and password
 
 .. ifconfig:: metadata['project']['auth'] == 'aaf'
 
-    On |project-name|, authentication typically occurs with existing research
-    institution credentials using Single-Sign-On.  Because your credentials
-    are only ever managed by you institution, you must utilise the special
-    credentials local to |project-name|.  To find these details:
+    On |project-name|, authentication occurs either with existing
+    research institution credentials using Single-Sign-On, or with local
+    accounts that are independently managed inside |project-name|.
+
+    If your account has not been issued by a research institution
+    (university, CSIRO and so forth), then you should already know your
+    username and password as you'll be using them to log into
+    |project-name|.  If this applies to you, ignore the following
+    instructions.
+
+    If your credentials are managed by your institution, you must
+    utilise special credentials on |project-name|.  To find these
+    details:
 
     * Username:
 
@@ -189,6 +198,14 @@ Any standards-compliant WebDAV client should be able to connect to
 are many clients that exist, including those which may be built-in to certain
 operating systems (such as Windows and Mac), we recommend you use our
 suggestions for an improved experience.
+
+Tips and suggestions
+--------------------
+
+After uploading content, you may find that content is present within your site
+(such as the ``Contents`` listings), but you cannot link to it from within Page
+content.  If you experience this, you should add a Title to the given files and
+documents, following the instructions for :ref:`renaming-content`.
 
 
 Transferring multiple files (Microsoft Windows and Apple Mac)
