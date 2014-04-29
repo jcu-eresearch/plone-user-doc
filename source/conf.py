@@ -105,12 +105,7 @@ exclude_trees = []
 
 #A list of global patterns that should be excluded when looking for files. 
 #The following have been included to prevent a warning as they are not used in the toctree. 
-exclude_patterns = ["containers.rst",
-                    "customisation.rst",
-                    "dashboard.rst",
-                    "homepage.rst",
-                    "login.rst",
-                    "preferences.rst"]
+exclude_patterns = []
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 #add_function_parentheses = True
