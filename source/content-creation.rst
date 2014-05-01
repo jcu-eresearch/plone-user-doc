@@ -49,7 +49,8 @@ Collection
 
     Form Folder
         A special folder that is used to build a form. Form folders can have
-        fields, data capture tools, and special pages added to them.
+        fields, data capture tools, and special pages added to them.  Forms
+        are especially useful for making a site interactive.
 
 
 .. _creating-new-content:
