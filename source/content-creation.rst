@@ -45,7 +45,7 @@ Collection
     a certain type is grouped together. Collections can only be added by an
     administrator.
 
-.. only:: ploneformgen
+.. only:: forms
 
     Form Folder
         A special folder that is used to build a form. Form folders can have

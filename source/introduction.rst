@@ -128,6 +128,7 @@ access.
 By default, content that is created will be displayed in navigation listings
 for ease of access. This behaviour is customisable either on a site-wide basis
 or for individual content items or folders.
+
 .. content-end
 
 For in-depth information about content management, see
