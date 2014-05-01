@@ -7,31 +7,21 @@ This documentation covers the most important aspects to |project-name|,
 including an introduction to content managment, a layout overview, and
 information about site management.
 
-.. only:: user
 
-   .. toctree::
-      :maxdepth: 2
+.. toctree::
+   :maxdepth: 2
 
-      introduction
-      custom-espaces
-      gettingstarted-login
-      content-creation
-      content-management
-      content-special
-      layout-customisation
-      interacting
-      faq
-      glossary
-      Visit eSpaces <https://espaces.edu.au>
-
-
-.. only:: admin
-
-   .. toctree::
-      :maxdepth: 2
-
-      introduction
-      Visit eSpaces <https://espaces.edu.au>
+   introduction
+   custom-espaces
+   gettingstarted-login
+   content-creation
+   content-management
+   content-special
+   layout-customisation
+   interacting
+   faq
+   glossary
+   Visit eSpaces <https://espaces.edu.au>
 
 
 Indices and tables
