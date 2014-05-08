@@ -438,7 +438,7 @@ To do this, decide whether you wish to rename just one item or several:
 Renaming one content item or folder
 -----------------------------------
 
-.. info::
+.. note::
    If you're attempting to rename a folder and the folder has a default view,
    the site will ask you to rename the default view itself, rather than the
    surrounding folder. To access the folder explicitly, see
