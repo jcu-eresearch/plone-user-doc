@@ -267,7 +267,7 @@ Location
        :align: center
        :width: 250px
 
-    .. _form_options:
+    .. _form-options:
 
     Form options
     ------------
@@ -403,6 +403,94 @@ Location
                                     to create and use.
     =====================           =============================
 
+    Common tasks
+    ------------
+
+    Form submissions should be emailed
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    Your form can be configured such that data being entered gets emailed to
+    you, or a number of specific email addresses (or email aliases or lists).
+    To do this:
+
+    #. Browse to the form on your site.
+
+    #. Your form may already have a ``Mailer Adapter`` configured. Click the
+       ``Contents`` tab and look for an item called ``Mailer`` in the
+       listing.  
+       
+       #. If this exists, you should click its link, and click ``Edit``
+          to edit this instead.
+
+       #. If not, use :menuselection:`Add new --> Mailer Adapter` to add this feature to
+          your form.
+
+    #. Configure the mailer adapter accordingly.  Look under each of the
+       collapsed sections to reveal options.  For example, you can:
+
+       * Configure the Recipient and their email address
+       * Add CC and BCC recipients
+       * Configure the email's subject
+       * Add extra text to display in the body of the email
+       * Configure which fields should be sent within the emails
+              
+    #. Use the ``Save`` button to either update or create your mail
+       configuration.  Any form submissions will start sending email
+       immediately.
+
+    It is possible to add multiple ``Mailer Adapter``s onto your form if you
+    have specific email requirements to different people.  For instance, you
+    may want only a certain subset of people to be emailed with certain data
+    or with a specific subject line.  Make sure you test your form before
+    making it live!
+
+
+    Form submissions should be securely saved online
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    Your form can be configured such that data being entered gets saved into a
+    secure location on your site, and is able to be downloaded by users with
+    appropriate permission later.
+
+    .. important::
+       Forms that capture files from users using a ``File Field`` can only
+       be emailed as attachments.  They cannot be stored on your site or
+       associated with a ``Save Data Adapter``.
+
+    .. warning::
+       Your saved data structure will get out of sync with existing data if
+       you change your form's structure, add fields or remove fields, after
+       receiving submissions.  If you plan to update your form, ensure you
+       `Clear saved form submissions`_ first.
+
+    To do this:
+
+    #. Browse to the form on your site.
+
+    #. Your form may already have a ``Save Data Adapter`` configured. Click the
+       ``Contents`` tab and look for an item called ``Saved Data`` (or
+       similar) in the listing.
+       
+       #. If this exists, you should click its link, and click ``Edit``
+          to edit this instead.
+
+       #. If not, use :menuselection:`Add new --> Save Data Adapter` to add
+          this feature to your form.
+
+    #. Configure the save data adapter accordingly.  Look under each of the
+       collapsed sections to reveal options.  For example, you can:
+
+       * Configure the fields to be saved
+       * Configure extra technical data to be saved.  The ``REMOTE_ADDR`` and
+         ``HTTP_X_FORWARDED_FOR`` record the IP address of the incoming
+         submission, and the ``HTTP_USER_AGENT`` field captures the user's
+         reported browser.
+       * Select the download format for your file (either comma-separated or
+         tab-separated).  Don't change this after receiving form submissions.
+       * Include column names in the output as the first line of the file.
+
+    #. Use the ``Save`` button to either update or create your configuration.
+       Any form submissions will start capturing data immediately.
 
     Testing your form
     -----------------
@@ -417,6 +505,53 @@ Location
        Remember that if you have a ``Save Data Adaptor`` within your form any
        testing you perform will be saved inside its local storage.  Thus, you
        may want to clear your tests before considering the form live.
+       See `Clearing saved form submissions`_ for details.
+
        Similarly, if you have configured a ``Mailer Adaptor`` to send email
        responses, then these will be triggered as well.
+
+    Downloading saved form submissions
+    ----------------------------------
+
+    .. note::
+       This is only applicable if you created a ``Save Data Adapter`` for your
+       form.
+
+    Once visitors have been submitting your form, you will either find
+    yourself wanting to get access to the saved data.
+
+    #. Browse to the form on your site.
+
+    #. Click ``Contents`` to locate the ``Save Data Adapter`` on the form.
+
+    #. Click the link for the ``Save Data Adapter`` in the listing.
+
+    #. Click the saved input link in the middle of the page.
+
+    The downloaded file can now be opened in any desktop program for analysis,
+    including Microsoft Excel, LibreOffice, or anything that supports CSV or
+    TSV file formats.
+
+    Clearing saved form submissions
+    -------------------------------
+
+    .. note::
+       This is only applicable if you created a ``Save Data Adapter`` for your
+       form.
+
+    .. warning::
+       Clearing data is permanent and irreversible. Always take a copy of your
+       data before performing this action.
+
+    #. Browse to the form on your site.
+
+    #. Click ``Contents`` to locate the ``Save Data Adapter`` on the form.
+
+    #. Click the link for the ``Save Data Adapter`` in the listing.
+
+    #. Click the ``Clear Saved Input`` button on the page.
+
+
+
+
 
