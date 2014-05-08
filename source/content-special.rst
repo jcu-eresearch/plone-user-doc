@@ -279,22 +279,28 @@ Location
     Option                 Description
     =====================  =============================
     Title                  Short, descriptive title of the form
-    Description            A medium-length description of the form's purpose or action.
+    Description            A medium-length description of the form's purpose
+                           or action.
     Submit Button Label    The text to display on the form's submit button
-    Show Reset Button      Select to show a reset button on the form, allowing the
-                           user to clear their entry and start over Reset Button Label
-    Reset Button Label     The text to display on the form's reset button, if enabled
-    Action Adapter         Select which of the actions the form should take after submit.
-                           If first creating a form, you'll just see 'Mailer' for emailing
-                           results.  Others can be added later.
-    Thanks Page            Configure which page to show after the form has been submitted.
-                           Typically, this will thank the user, or give them further instructions.
-    Force SSL connection   Force the form to be shown over a secure (SSL) connection.
-                           Your Plone site must be configured specifically for this
-                           functionality.  Consult your site administrator if in doubt.
+    Show Reset Button      Select to show a reset button on the form, allowing
+                           the user to clear their entry and start over Reset
+                           Button Label
+    Reset Button Label     The text to display on the form's reset button,
+                           if enabled.
+    Action Adapter         Select which of the actions the form should take
+                           after submit.  If first creating a form, you'll
+                           just see 'Mailer' for emailing results.  Others can
+                           be added later.
+    Thanks Page            Configure which page to show after the form has been
+                           submitted.  Typically, this will thank the user, or
+                           give them further instructions.
+    Force SSL connection   Force the form to be shown over a secure (SSL)
+                           connection.  Your site must be configured
+                           specifically for this functionality.  Consult your
+                           site administrator if in doubt.
     Form Prologue          Rich text to display above the form. You may want to 
-                           introduce your form, explain what it does, add friendly images,
-                           and more.
+                           introduce your form, explain what it does, add
+                           friendly images, and more.
     Form Epilogue          Rich text to display below the form. You may want to 
                            sign off and say thanks here.
     =====================  =============================
@@ -303,10 +309,9 @@ Location
     ----------------------
 
     Your form also comes with a simple Quick Editor, which allows you to drag
-    and drop fields onto your page, as well as easily edit and update
-    your other form features.  You should familiarise yourself with
-    `Form fields`_ and `Form features`_ so you know what functionality is
-    available.
+    and drop fields onto your page, as well as easily edit and update your
+    other form features.  You should familiarise yourself with `Form fields`_
+    and `Form features`_ so you know what functionality is available.
 
     .. image:: images/form_quickeditor.png
        :alt: Example form quick editor 

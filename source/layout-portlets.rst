@@ -5,7 +5,7 @@ What are portlets?
 ------------------
 
 Portlets are small panels of information that you can display to either help
-your users or improve page display. If you've used your Plone site, you'll
+your users or improve page display. If you've used |project-name|, you'll
 already have used portlets - likely without even knowing.  Here's an example:
 
 .. image:: /images/portlet_example.png

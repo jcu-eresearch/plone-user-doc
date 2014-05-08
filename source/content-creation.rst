@@ -348,9 +348,9 @@ Location
     A textual location string associated with the content. This will be
     displayed beneath the content item's metadata when viewed.
 Language
-    Specify the language that the content item has been written in or for.  By default,
-    content on |project-name| will default to English.  Note this is a
-    metadata-only field and has no effect on the actual text of the content.
+    Specify the language that the content item has been written in or for.  By
+    default, content on |project-name| will default to English.  Note this is
+    a metadata-only field and has no effect on the actual text of the content.
 
 
 Dates
@@ -385,9 +385,9 @@ Settings
 --------
 
 Allow comments
-    Toggle whether other users can comment on the given contnet item.  For some
-    content types, this will be enabled by default.  Enabling this will display
-    a comments form at the bottom of the content item.
+    Toggle whether other users can comment on the given contnet item.  For
+    some content types, this will be enabled by default.  Enabling this will
+    display a comments form at the bottom of the content item.
 Exclude from navigation
     Explicitly exclude the current content item or folder from appearing in
     navigation listings, including navigation portlets or the top-level
@@ -437,6 +437,13 @@ To do this, decide whether you wish to rename just one item or several:
 
 Renaming one content item or folder
 -----------------------------------
+
+.. info::
+   If you're attempting to rename a folder and the folder has a default view,
+   the site will ask you to rename the default view itself, rather than the
+   surrounding folder. To access the folder explicitly, see
+   :ref:`renaming-multiple` and access the folder using its parent. Read more
+   about :ref:`Default views [default-view]`.
 
 #. Browse to the given content item or folder you wish to rename.
 
