@@ -123,10 +123,10 @@ folder.
 Sorting a folder
 ================
 
-.. only:: folder-sorting
+.. only:: folder_sorting
 
-    Sorting manually
-    ----------------
+   Sorting manually
+   ----------------
 
 The contents of a given folder are displayed in numerous ways across the site,
 including in navigation portlets, as top-level tabs, and in folder listings
@@ -155,39 +155,38 @@ you'd like to change this.  To manually adjust ordering:
        page.
 
 
-.. only:: folder-sorting
+.. only:: folder_sorting
 
-    Sorting based on criteria
-    -------------------------
+   Sorting based on criteria
+   -------------------------
 
-    |project-name| provides a helpful view for re-ordering the contents of folders,
-    and allows sorting on a number of different criteria, including title,
-    modification date, and more.
+   |project-name| provides a helpful view for re-ordering the contents of folders,
+   and allows sorting on a number of different criteria, including title,
+   modification date, and more.
 
-    .. note::
-       Remember that folder ordering is not automatically applied. You will need to
-       follow this process whenever the order should be updated.
+   .. note::
+      Remember that folder ordering is not automatically applied. You will need to
+      follow this process whenever the order should be updated.
 
+   To access the sorting view:
 
-    To access the sorting view:
+   #. Browse to the folder that you wish to re-order.  Ensure you are looking at
+      the ``View`` tab, which will be the main folder view.
 
-    #. Browse to the folder that you wish to re-order.  Ensure you are looking at
-       the ``View`` tab, which will be the main folder view.
+   #. Click to :menuselection:`Actions --> Sort folder` to access the sorting
+      controls.
 
-    #. Click to :menuselection:`Actions --> Sort folder` to access the sorting
-       controls.
+      .. image:: images/sort_folder.png
+         :alt: Sort folder menu
+         :align: center
 
-       .. image:: images/sort_folder.png
-          :alt: Sort folder menu
-          :align: center
+   #. Choose the criteria you wish to sort on, including enabling the reverse sorting
+      option, if so desired.
 
-    #. Choose the criteria you wish to sort on, including enabling the reverse sorting
-       option, if so desired.
+   #. Click ``Sort`` to complete the process.
 
-    #. Click ``Sort`` to complete the process.
-
-    #. Inspect the results in the contents listing.  To re-order contents,
-       click back to the ``View`` tab and start again.
+   #. Inspect the results in the contents listing.  To re-order contents,
+      click back to the ``View`` tab and start again.
 
 
 Enabling next/previous folder navigation

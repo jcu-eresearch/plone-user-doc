@@ -184,11 +184,11 @@ the site administration for assistance.
 Permissions and access
 ======================
 
-Each user can be granted specific :ref:`Roles` in different areas of the site.
-Roles can be granted either site-wide (called :ref:`global roles`), which are
-the managed by site administrators, or granted within a specific area of the
-site (called :ref:`local roles`), which can be managed by users that already
-have permissions.
+Each user can be granted specific :ref:`role <roles>` in different areas of the site.
+Roles can be granted either site-wide (called :ref:`global roles
+<global-roles>`), which are the managed by site administrators, or granted
+within a specific area of the site (called :ref:`local roles <local-roles>`),
+which can be managed by users that already have permissions.
 
 Access can be granted either to a specific user or a group of users.  Creation
 and management of groups of users is managed by site administrators.

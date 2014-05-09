@@ -45,12 +45,13 @@ metadata = {
 current_year = datetime.datetime.now().year
 
 # Add these tags via command line generation
+# These must conform to Python variable standards or errors will occur!
 tags.add('forms')
-tags.add('folder-sorting')
-tags.add('files-images-have-state')
-tags.add('user-portlet-management')
-tags.add('group-management')
-tags.add('bootstrap-theme')
+tags.add('folder_sorting')
+tags.add('files_images_have_state')
+tags.add('user_portlet_management')
+tags.add('group_management')
+tags.add('bootstrap_theme')
 tags.add('admin')
 
 
