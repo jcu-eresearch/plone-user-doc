@@ -9,9 +9,9 @@
 |project-name| User Guide
 =========================
 
-This documentation covers the most important aspects to |project-name|,
-including an introduction to content managment, a layout overview, and
-information about site management.
+This documentation covers the most important aspects to |project-name|
+(|project-url|), including an introduction to content managment, a layout
+overview, and information about site management. 
 
 
 .. toctree::
@@ -27,7 +27,6 @@ information about site management.
    interacting
    faq
    glossary
-   Visit |project-name| <|project-url|>
 
 
 Indices and tables

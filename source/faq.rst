@@ -13,7 +13,7 @@ Contact your site administrator for more information and details about what
 other options you may have for including your content.
 
 
-.. only:: bootstrap-theme
+.. only:: bootstrap_theme
 
     The title bar covers or obscures my logo
     ----------------------------------------
@@ -81,5 +81,5 @@ from standard listings.
 How can I reorder content within a folder?
 ------------------------------------------
 
-See :ref:`folder-sorting` for details on how to adjust the ordering of content
+See :ref:`sorting-a-folder` for details on how to adjust the ordering of content
 within a given folder.
