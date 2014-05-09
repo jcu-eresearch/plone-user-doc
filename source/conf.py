@@ -31,12 +31,12 @@ def setup(app):
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 metadata = {
     'project': {
-        'name': u'eSpaces',
-        'shortname': 'eSpacesUserDocumentation',
+        'name': u'ACCLAiM',
+        'shortname': 'ACCLAiMUserDocumentation',
         'team': u'eResearch Centre, James Cook University',
-        'url': 'https://espaces.edu.au',
+        'url': 'https://acclaim.edu.au',
         'server-scheme': 'https',
-        'server-host': 'espaces.edu.au',
+        'server-host': 'acclaim.edu.au',
         'server-port': 443,
         'auth': 'aaf',
         'security': 'mixed'
@@ -49,7 +49,7 @@ tags.add('forms')
 tags.add('folder-sorting')
 tags.add('files-images-have-state')
 tags.add('user-portlet-management')
-#tags.add('group-management')
+tags.add('group-management')
 tags.add('bootstrap-theme')
 tags.add('admin')
 
