@@ -1,5 +1,11 @@
 .. _plone-index:
 
+.. image:: images/logo.png
+   :alt: |project-name| logo
+   :width: 200px
+   :align: right
+
+
 |project-name| User Guide
 =========================
 
@@ -21,7 +27,7 @@ information about site management.
    interacting
    faq
    glossary
-   Visit eSpaces <https://espaces.edu.au>
+   Visit |project-name| <|project-url|>
 
 
 Indices and tables
