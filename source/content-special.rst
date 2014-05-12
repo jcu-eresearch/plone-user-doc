@@ -202,6 +202,8 @@ Location
 
 .. only:: forms
 
+    .. _online-forms:
+
     Creating online forms
     =====================
 
