@@ -19,6 +19,7 @@ overview, and information about site management.
 
    introduction
    gettingstarted-login
+   custom-acclaim
    content-creation
    content-management
    content-special
