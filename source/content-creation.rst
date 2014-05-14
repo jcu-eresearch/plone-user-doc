@@ -443,7 +443,7 @@ Renaming one content item or folder
    the site will ask you to rename the default view itself, rather than the
    surrounding folder. To access the folder explicitly, see
    :ref:`renaming-multiple` and access the folder using its parent. Read more
-   about :ref:`Default views [default-view]`.
+   about :ref:`Default views <default-view>`.
 
 #. Browse to the given content item or folder you wish to rename.
 
@@ -456,6 +456,8 @@ Renaming one content item or folder
 #. Your content is now accessible using the new short name and URL.
    See the `note above <links-maintained_>`_ for details.
 
+
+.. _renaming-multiple:
 
 Renaming several items at once
 ------------------------------

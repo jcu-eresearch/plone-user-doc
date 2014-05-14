@@ -202,6 +202,8 @@ Location
 
 .. only:: forms
 
+    .. _online-forms:
+
     Creating online forms
     =====================
 
@@ -275,9 +277,9 @@ Location
     Here's a description of the options available for forms, which can be
     configured by editing the given form via the :menuselection:`Edit` link.
 
-    =====================  =============================
+    =====================  ==================================================
     Option                 Description
-    =====================  =============================
+    =====================  ==================================================
     Title                  Short, descriptive title of the form
     Description            A medium-length description of the form's purpose
                            or action.
@@ -303,7 +305,7 @@ Location
                            friendly images, and more.
     Form Epilogue          Rich text to display below the form. You may want to 
                            sign off and say thanks here.
-    =====================  =============================
+    =====================  ==================================================
 
     Using the Quick Editor
     ----------------------
@@ -438,12 +440,12 @@ Location
        * Configure the email's subject
        * Add extra text to display in the body of the email
        * Configure which fields should be sent within the emails
-              
+
     #. Use the ``Save`` button to either update or create your mail
        configuration.  Any form submissions will start sending email
        immediately.
 
-    It is possible to add multiple ``Mailer Adapter``s onto your form if you
+    It is possible to add multiple ``Mailer Adapters`` onto your form if you
     have specific email requirements to different people.  For instance, you
     may want only a certain subset of people to be emailed with certain data
     or with a specific subject line.  Make sure you test your form before
@@ -466,7 +468,7 @@ Location
        Your saved data structure will get out of sync with existing data if
        you change your form's structure, add fields or remove fields, after
        receiving submissions.  If you plan to update your form, ensure you
-       `Clear saved form submissions`_ first.
+       :ref:`clear-form` first.
 
     To do this:
 
@@ -536,6 +538,8 @@ Location
     The downloaded file can now be opened in any desktop program for analysis,
     including Microsoft Excel, LibreOffice, or anything that supports CSV or
     TSV file formats.
+
+    .. _clear-form:
 
     Clearing saved form submissions
     -------------------------------

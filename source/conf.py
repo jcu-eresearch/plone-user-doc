@@ -13,7 +13,6 @@
 
 import sys, os
 import datetime
-import sphinx_bootstrap_theme
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -31,26 +30,27 @@ def setup(app):
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 metadata = {
     'project': {
-        'name': u'ACCLAiM',
-        'shortname': 'ACCLAiMUserDocumentation',
+        'name': u'eResearch Web Services',
+        'shortname': 'eResearchWebServicesUserDocumentation',
         'team': u'eResearch Centre, James Cook University',
-        'url': 'https://acclaim.edu.au',
+        'url': 'https://eresearch.jcu.edu.au',
         'server-scheme': 'https',
-        'server-host': 'acclaim.edu.au',
+        'server-host': 'eresearch.jcu.edu.au',
         'server-port': 443,
-        'auth': 'aaf',
+        'auth': 'jcu-ldap',
         'security': 'mixed'
     }
 }
 current_year = datetime.datetime.now().year
 
 # Add these tags via command line generation
+# These must conform to Python variable standards or errors will occur!
 tags.add('forms')
-tags.add('folder-sorting')
-tags.add('files-images-have-state')
-tags.add('user-portlet-management')
-tags.add('group-management')
-tags.add('bootstrap-theme')
+tags.add('folder_sorting')
+tags.add('files_images_have_state')
+tags.add('user_portlet_management')
+tags.add('group_management')
+#tags.add('bootstrap_theme')
 tags.add('admin')
 
 

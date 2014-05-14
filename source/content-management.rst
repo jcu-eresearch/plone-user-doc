@@ -51,6 +51,8 @@ Can view             Allows the user to see private content. Use this
 ==========           ========================================================
 
 
+.. _roles:
+
 Roles
 -----
 
@@ -83,6 +85,32 @@ Viewer
     Manager
         Special site-wide role with all permissions and abilities.  Users with this
         permission are effectively super users and can do everything, everywhere.
+
+
+Local and site-wide roles
+-------------------------
+
+Roles can be applied to grant users permissions in one of two different ways,
+either as ``local`` roles or as ``site-wide`` roles.
+
+.. _local-roles:
+
+**Local roles** are applied just for a specific area on the site, being either a
+specific content item, or for an entire folder.  This is the most typical
+manner in which to grant users access to content because it can be controlled
+on a very granular level.  For example, a certain user or set of users should
+have access to a certain folder or file, whilst other users should not.  This
+is the process described under :ref:`sharing-your-content` and users are able
+to self-manage permissions without requiring a site administrator's
+assistance.
+
+.. _global-roles:
+
+**Site-wide** or *global* roles are applied by a system administrator and
+grant a given user or set of users access across the entire site.  This is
+useful in the situation where a user is a content administrator or review
+personnel for all content across a site.  Care should always be taken which
+granting any unrestricted access across a site.
 
 
 .. _sharing-your-content:
@@ -239,7 +267,7 @@ states are listed below:
 |           | * Content managers can retract back to being **Private**.        |
 +-----------+------------------------------------------------------------------+
 
-.. only:: files-images-have-state
+.. only:: files_images_have_state
 
    For |project-name|, ``File`` and ``Image`` content types
    are configured specially to inherit the parent folder's workflow state.
@@ -247,6 +275,8 @@ states are listed below:
    images will be as well.  The same applies to publishing content - in order
    to publish files or images, then the surrounding folder must be published.
 
+
+.. _state-menu:
 
 The State menu
 --------------
@@ -327,7 +357,7 @@ In order to review a given content item:
 #. Visit your dashboard and click the link to the item for review.  Otherwise,
    browse to the content item to be reviewed.
 
-#. Use the State drop-down menu (see :ref:`The State menu`) to make a decision
+#. Use the State drop-down menu (see :ref:`state-menu`) to make a decision
    regarding either publishing or rejecting this item.
 
 At this point you have the following choices for this item:
@@ -394,7 +424,7 @@ You can choose to make folders public if you would like to share the data
 within it. As with all other publication of content, this can be reviewed later
 if necessary.
 
-.. only:: files-images-have-state
+.. only:: files_images_have_state
 
    .. important::
        On |project-name|, file and image content items inherit the workflow
@@ -405,7 +435,7 @@ if necessary.
 
 
 The same workflow associated with normal content applies to folders, so refer
-to :ref:`creating-public-content` for more information.
+to :ref:`publishing-content` for more information.
 
 
 Checking access permissions

@@ -37,11 +37,12 @@ override this behaviour on sub-folders or individual content items, however.
 Permission to change portlets
 -----------------------------
 
-.. only:: user-portlet-management
+.. only:: user_portlet_management
 
-    By default, portlet management is only available to users that are Site
-    administrators.  However, for |project-name| this restriction has been
-    relaxed to allow content editors the ability to control their portlets.
+   By default, portlet management is only available to users that are Site
+   administrators.  However, for |project-name| this restriction has been
+   relaxed to allow content editors the ability to control their portlets.
+
 
 To determine if you can add or edit portlets, look for the ``Manage portlets``
 link. If you see it, then you have sufficient permission. If not, then you'll
@@ -156,5 +157,6 @@ from a specific area on the site. To manage your portlets:
        being displayed here. Remember that by default, portlets from parent
        folders are applied to child content.
 
-#. Once you're done managing your portlets, click the ``Save settings`` button at the bottom of the column.
+#. Once you're done managing your portlets, click the ``Save settings`` button
+   at the bottom of the column.
 
