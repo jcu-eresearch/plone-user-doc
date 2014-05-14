@@ -12,6 +12,12 @@ any content management tasks, such as creating content or modifying existing
 items, or to access secured content, you also must have been granted suitable
 permissions.
 
+.. ifconfig:: metadata['project']['auth'] == 'jcu-ldap'
+
+   |project-name| utilises your existing JCU credentials in order for you to
+   log in. Any changes to your password are managed centrally by the IT
+   helpdesk and will automatically follow through to be used on
+   |project-name|.
 
 .. ifconfig:: metadata['project']['auth'] == 'aaf'
 
@@ -102,6 +108,25 @@ permissions.
           :scale: 75%
 
 
+.. ifconfig:: metadata['project']['auth'] == 'jcu-ldap'
+
+    JCU Authentication
+    ------------------
+
+    Using JCU-based crentials to login follows the same process as
+    :ref:`local-authentication:, with two notable differences:
+
+    * Credentials are the same as other JCU systems, being your user ID and
+      password, rather than a site-local account.
+    * Password reset requests will not work as your credentials are supplied
+      from the main authentication database. See :ref:`login-issues` for
+      details.
+
+    A |project-name| site likely utilises both JCU and local-based accounts.
+    Contact your site administrator if you have questions.
+
+.. _local-authentication:
+
 Local Authentication
 --------------------
 
@@ -119,7 +144,14 @@ that you know your pre-existing credentials.
       :align: center
       :scale: 75%
 
-#. Click on the ``Local Login`` link.
+#. .. ifconfig:: metadata['project']['auth'] == 'aaf'
+
+      Click on the ``Local Login`` link.
+
+   .. ifconfig:: metadata['project']['auth'] != 'aaf'
+
+      The same login fields are used for all types of authentication on this
+      site.
 
 #. Enter the user name and password that you have for the portal.
 
@@ -156,8 +188,20 @@ you log out.
           cookies relating to ``aaf.edu.au`` and ``|project-server-host|``.
 
 
+.. _login-issues:
+
 If you cannot log in
 --------------------
+
+.. ifconfig:: metadata['project']['auth'] == 'jcu-ldap'
+
+    JCU Authentication
+    ~~~~~~~~~~~~~~~~~~
+
+    Since authentication is provided by your existing JCU credentials, you
+    should contact the `IT Helpdesk <https://jcueduau.service-now.com/>`_
+    with your queries or password reset requests.
+
 
 .. ifconfig:: metadata['project']['auth'] == 'aaf'
 
