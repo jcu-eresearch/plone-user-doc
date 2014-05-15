@@ -146,9 +146,9 @@ Obtaining your username and password
 
 .. ifconfig:: metadata['project']['auth'] != 'aaf'
 
-   The credentials you log into |project-name| with are the same that you
-   should utilise for connecting to transfer files.  If you have forgotten your
-   username or password, you will need to obtain these before proceeding.
+   The credentials for transferring files are the same as those that you use
+   to log into |project-name|.  If you have forgotten your username or
+   password, you will need to obtain these before proceeding.
 
 
 .. ifconfig:: metadata['project']['auth'] == 'aaf'
