@@ -93,9 +93,11 @@ Technical suggestions
   detailed experience on desktop browsers, but small enough for viewing on
   mobile devices as well.
 
-* |project-name| uses MediaElement.js to integrate the playback of videos in the
-  site.  This open-source project aims to enable HTML5 video support in a
-  common fashion across all browsers and devices.  
+* |project-name| uses MediaElement.js to integrate the playback of videos in
+  the site.  This open-source project aims to enable HTML5 video support in a
+  common fashion across all browsers and devices. For browsers and platforms
+  that lack ``H264`` capabilities, either a Flash-based or Silverlight-based
+  player will be used as a fallback.
 
 * Blank video playback or videos failing to play at all are likely an
   indicator of incorrect video or audio codecs present within your uploaded
@@ -124,8 +126,8 @@ Viewing a video
    If you experience issues with displaying a video, check
    to make sure you're using the latest version of your browser and for
    platforms that do not support MP4 natively (earlier versions of Internet
-   Explorer and Linux browsers), ensure your Adobe Flash Player plugin is
-   up-to-date.
+   Explorer and Linux browsers), ensure your `Adobe Flash Player
+   <http://get.adobe.com/flashplayer>` plugin is installed and up-to-date.
 
 #. Browse to the location in the site where the video is located, or use the
    direct web address provided to you.
