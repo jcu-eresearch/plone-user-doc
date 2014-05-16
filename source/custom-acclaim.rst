@@ -80,8 +80,10 @@ Adding a new video
 Technical suggestions
 ---------------------
 
-* Videos should be uploaded in ``.mp4`` format for maximum compatibility with
-  a viewer's browser (standard ``H264`` video codec and ``AAC`` audio codec). 
+* Videos must be uploaded in ``.mp4`` format for maximum compatibility with
+  a viewer's browser (standard ``H264`` video codec and ``AAC`` audio codec).
+  Without this configuration, videos are likely to fail to play or may exhibit
+  unusual behaviour.
 
 * Viewers may be looking at your video on many different devices, so a high
   level of video compression (or a lower video bitrate) is recommended.
@@ -120,12 +122,20 @@ Viewing a video
 
 #. Click or tap the large play icon in the middle of the video.
 
-#. The video will begin playing.  
+#. The video will begin playing.
 
 #. Use the controls provided to play, pause and skip to another part of the
    video.  Videos can be made full-screen using the button at the right.
-   
+
 #. For mobile devices such as smartphones and tablets, the video will likely
    display full-screen whilst playing.  Click the relevant button to minimise
    and close the video once done.
 
+
+Troubleshooting
+---------------
+
+If a video fails to playback in your browser, contact the site administrator
+to have them ensure the video is in the correct format.  If a file is of the
+``MP4`` format, the video must be produced accordingly to the
+:ref:`video-suggestions` above.
