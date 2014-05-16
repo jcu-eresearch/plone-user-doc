@@ -93,6 +93,16 @@ Technical suggestions
   detailed experience on desktop browsers, but small enough for viewing on
   mobile devices as well.
 
+* |project-name| uses MediaElement.js to integrate the playback of videos in the
+  site.  This open-source project aims to enable HTML5 video support in a
+  common fashion across all browsers and devices.  
+
+* Blank video playback or videos failing to play at all are likely an
+  indicator of incorrect video or audio codecs present within your uploaded
+  video.  Check the codec information using a program like VLC Media Player or
+  the command-line ``avprobe`` on Mac or Linux and confirm as per the
+  :ref:`video-suggestions` above.
+
 
 Editing a video
 ---------------
@@ -139,3 +149,4 @@ If a video fails to playback in your browser, contact the site administrator
 to have them ensure the video is in the correct format.  If a file is of the
 ``MP4`` format, the video must be produced accordingly to the
 :ref:`video-suggestions` above.
+
