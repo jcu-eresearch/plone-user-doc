@@ -123,11 +123,13 @@ Viewing a video
 ---------------
 
 .. note::
-   If you experience issues with displaying a video, check
-   to make sure you're using the latest version of your browser and for
-   platforms that do not support MP4 natively (earlier versions of Internet
-   Explorer and Linux browsers), ensure your `Adobe Flash Player
-   <http://get.adobe.com/flashplayer>` plugin is installed and up-to-date.
+   If you experience issues with displaying a video, check to make sure you're
+   using the latest version of your browser.  For platforms that do not
+   support MP4 natively (earlier versions of Internet Explorer and some Linux
+   browsers), ensure your `Adobe Flash Player
+   <http://get.adobe.com/flashplayer>`_ and `Microsoft Silverlight
+   <http://www.microsoft.com/silverlight>`_ (if on a Windows platform) plugins
+   are installed and up-to-date.
 
 #. Browse to the location in the site where the video is located, or use the
    direct web address provided to you.
