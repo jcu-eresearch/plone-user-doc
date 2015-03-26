@@ -6,50 +6,68 @@ Getting started
 Logging in
 ==========
 
-In order to make any changes or perform actions on |project-name|, the first
-and most significant step is to access the site and log in. To perform
-any content management tasks, such as creating content or modifying existing
-items, or to access secured content, you also must have been granted suitable
-permissions.
+In order to get started with |project-name|, the first step is to access the
+site and log in. To perform any content management tasks, such as creating
+content or modifying existing items, or to access secured content, you also
+must have been granted suitable permissions.
 
-.. ifconfig:: metadata['project']['auth'] == 'jcu-ldap'
+.. ifconfig:: 'jcu-ldap' in metadata['project']['auth']
 
-   |project-name| utilises your existing JCU credentials in order for you to
-   log in. Any changes to your password are managed centrally by the IT
-   helpdesk and will automatically follow through to be used on
-   |project-name|.
+   * |project-name| utilises your existing JCU credentials in order for you to
+     log in. Read more in :ref:`jcu-authentication`.
 
-.. ifconfig:: metadata['project']['auth'] == 'aaf'
+     Any changes to your password are managed centrally by the IT
+     helpdesk and will automatically follow through to be used on
+     |project-name|.
 
-   Because |project-name| utilises :term:`Single Sign On (SSO)` you will
-   utilise an existing set of credentials to log in.  Due to the nature of this
-   process, in order to share content with colleagues, each individual must log
-   in to |project-name| at least once before they can be given access.
+.. ifconfig:: 'aaf' in metadata['project']['auth']
 
-   Most users will use their existing institutional username and password (or
-   other credentials) to log in via the :term:`Australian Access Federation
-   (AAF)`.
+   * |project-name| utilises institutional :term:`Single Sign On (SSO)`,
+     allowing you to utilise your existing set of university or research
+     organisation credentials to log in.  Due to the nature of this process, in
+     order to share content with colleagues, each individual must log in to
+     |project-name| at least once before they can be given access.
+     Read more in :ref:`institutional-authentication`.
 
-.. ifconfig:: metadata['project']['auth'] == 'local'
+.. ifconfig:: 'local' in metadata['project']['auth']
 
-   Because |project-name| utilises local authentication, you will utilise a
-   set of credentials that are local to this site.  The site administrator must
-   create this account and provide permissions before you are able to log in.
+   * Because |project-name| utilises local authentication, you can utilise a
+     set of credentials that are specific to this site.
+
+   .. ifconfig:: 'self-registration' in metadata['project']['auth']
+
+      * You have the ability to self-register for an account on |project-name|
+        and do not require a site administrator to create an account for you.
+        Follow the steps below in :ref:`registering`.
+
+   .. ifconfig:: 'self-registration' not in metadata['project']['auth']
+
+      * The site administrator must create your account and provide permissions
+        before you are able to log in.  Contact the administrator of your site
+        for more information.
+
+.. ifconfig:: 'local' in metadata['project']['auth'] and 'aaf' in metadata['project']['auth']
+
+   * |project-name| allows both insitutional users and local users to login to
+     the same site.  Take care when selecting your login method: if you have a
+     separate username and password for eSpaces only (called a *local account*),
+     then use the ``Local Login``.
 
 
-.. ifconfig:: metadata['project']['auth'] == 'aaf'
+.. ifconfig:: 'aaf' in metadata['project']['auth']
+
+    .. _institutional-authentication:
 
     Institutional Authentication
     ----------------------------
 
     .. important::
 
-        Before proceeding, ensure that your credentials have been provided by an
-        **institution** or **research organisation**, rather than being local
-        to |project-name|.  If you attempt to sign in to an institution's
-        authentication system using local |project-name| credentials, this
-        process will fail.
-
+        Before proceeding, ensure that your credentials have been provided by
+        an **institution** or **research organisation**, rather than being
+        local or specific to |project-name|.  If you attempt to sign in to an
+        institution's authentication system using local |project-name|
+        credentials, this process will not work.
 
     #. The login link is located in the top-right hand corner of the page:
 
@@ -58,35 +76,38 @@ permissions.
           :align: center
           :scale: 75%
 
-    #. You will be presented with the option to utilise AAF authentication to
-       log in.
+    #. Choose your login method.  Insitutional authentication is already
+       pre-selected for you.
 
        .. image:: /images/login_shib.png
           :alt: Portal Login Link
           :align: center
           :scale: 50%
 
-    #. Select your institution or organisation from the dropdown box.
+    #. Select your institution or organisation from the dropdown menu.
 
        .. note::
 
           If your institution or organisation doesn't appear in the list,
-          then you should contact your IT support staff about whether you
-          are part of the :term:`Australian Access Federation (AAF)`. If you
-          are a collaborator associated with an organisation subscribed to the
-          AAF, then you can obtain an AAF Virtual Home account by following
-          the instructions in the `AAF Virtual Home User Guide
+          you should contact your IT support staff about whether you
+          are part of the :term:`Australian Access Federation (AAF)`.
+
+          If you are a collaborator associated with an organisation subscribed
+          to the AAF, then you can obtain an AAF Virtual Home account by
+          following the instructions in the `AAF Virtual Home User Guide
           <https://vho.aaf.edu.au/guides/user-guide.pdf>`_.
 
     #. Click the ``Login`` button.
 
-    #. Enter your institutional or organisational credentials and login.
+    #. You will be taken your selected organisation's authentication page.
+       Enter your credentials and login.
 
        .. note::
 
-          This is a screen shot of the James Cook University login page - your
-          institution's page will look different and may behave in a slightly
-          different manner.
+          This is an example screen shot of the James Cook University login
+          page - your institution's page will look different and may behave in
+          a slightly different manner.  Follow your own organisation's login
+          steps to proceed.
 
        .. image:: /images/idp_jcu.png
           :alt: JCU Identity Provider
@@ -94,13 +115,15 @@ permissions.
           :scale: 50%
 
     #. You may be prompted to release certain details about yourself from your
-       organisation, including name, email address, and other particulars.
-       You must accept this to continue so that you can be identified within
-       our system.
+       organisation to |project-name|, including name, email address, and
+       other particulars.  You must accept this to continue so that you can be
+       identified within our system.
 
     #. Once logged in, notice that your name is displayed at the top-right
-       hand corner and that you can click on this to display the user
-       actions menu.
+       hand corner.
+
+       You can click on this to display the user actions menu,
+       which you'll use to change your settings and log out.
 
        .. image:: /images/user-tools-menu.png
           :alt: User actions menu
@@ -108,62 +131,79 @@ permissions.
           :scale: 75%
 
 
-.. ifconfig:: metadata['project']['auth'] == 'jcu-ldap'
+.. ifconfig:: 'jcu-ldap' in metadata['project']['auth']
+
+    .. _jcu-authentication:
 
     JCU Authentication
     ------------------
 
     Using JCU-based crentials to login follows the same process as
-    :ref:`local-authentication:, with two notable differences:
+    :ref:`local-authentication`, with two notable differences:
 
     * Credentials are the same as other JCU systems, being your user ID and
       password, rather than a site-local account.
-    * Password reset requests will not work as your credentials are supplied
+    * Password reset requests will *not* work as your credentials are supplied
       from the main authentication database. See :ref:`login-issues` for
       details.
 
-    A |project-name| site likely utilises both JCU and local-based accounts.
-    Contact your site administrator if you have questions.
-
-.. _local-authentication:
-
-Local Authentication
---------------------
-
-For local authentication, use the instructions that follow.
-
-If you are visiting your site for the first time, the site administrator needs
-to have provided you with a username and temporary password.  Otherwise, ensure
-that you know your pre-existing credentials.
+    |project-name| will likely utilise both JCU and local-based accounts.
+    Contact your site administrator if you have questions about your account.
 
 
-#. The login link is located in the top right hand corner of the page.
+.. ifconfig:: 'local' in metadata['project']['auth']
 
-   .. image:: /images/login_link.png
-      :alt: Portal Login Link
-      :align: center
-      :scale: 75%
+    .. _local-authentication:
 
-#. .. ifconfig:: metadata['project']['auth'] == 'aaf'
+    Local Authentication
+    --------------------
 
-      Click on the ``Local Login`` link.
+   .. ifconfig:: 'self-registration' in metadata['project']['auth']
 
-   .. ifconfig:: metadata['project']['auth'] != 'aaf'
+      * You have the ability to self-register for an account on |project-name|
+        and do not require a site administrator to create an account for you.
+        Follow the steps below in :ref:`registering`.
 
-      The same login fields are used for all types of authentication on this
-      site.
+   .. ifconfig:: 'self-registration' not in metadata['project']['auth']
 
-#. Enter the user name and password that you have for the portal.
+      * The site administrator must create your account and provide permissions
+        before you are able to log in.  Contact the administrator of your site
+        for more information.
 
-   .. image:: /images/login.png
-      :alt: Portal Login
-      :align: center
-      :scale: 50%
+    For local authentication, use the instructions that follow.
 
-#. Click on the login button.
+    If you are visiting your site for the first time, the site administrator needs
+    to have provided you with a username and temporary password.  Otherwise, ensure
+    that you know your pre-existing credentials.
 
-#. If you are unable to login, you can retry your login.  If you have forgotten
-   your password, follow the given link to start the reset process.
+
+    #. The login link is located in the top right hand corner of the page.
+
+    .. image:: /images/login_link.png
+        :alt: Portal Login Link
+        :align: center
+        :scale: 75%
+
+    .. ifconfig:: 'aaf' in metadata['project']['auth']
+
+        Click on the ``Local Login`` link.
+
+    .. ifconfig:: 'aaf' not in metadata['project']['auth']
+
+        The same login fields are used for all types of authentication on this
+        site.
+
+    #. Enter the user name and password that you have for the portal.
+
+    .. image:: /images/login.png
+        :alt: Portal Login
+        :align: center
+        :scale: 50%
+
+    #. Click on the login button.
+
+    #. If you are unable to login, you can retry your login.  If you have forgotten
+    your password, follow the given link to start the reset process.
 
 
 Logging out
@@ -177,13 +217,13 @@ you log out.
 
 #. Click the ``Log out`` link.
 
-   .. ifconfig:: metadata['project']['auth'] == 'aaf'
+   .. ifconfig:: 'aaf' in metadata['project']['auth']
 
        .. note::
 
           If you are logged in via your instutional credentials, you can log
           out of the portal, but your browser will remember you for use on
-          other :term:`Australian Access Federation (AAF)` services.  To log
+          other services from your local institution or your federation :term:`Australian Access Federation (AAF)` services.  To log
           out entirely, either quit the browser you use are using, or clear all
           cookies relating to ``aaf.edu.au`` and ``|project-server-host|``.
 
@@ -193,17 +233,20 @@ you log out.
 If you cannot log in
 --------------------
 
-.. ifconfig:: metadata['project']['auth'] == 'jcu-ldap'
+If you're experiencing issues logging in, first determine what sort of account
+you are using and follow the relevant troubleshooting steps below.
+
+.. ifconfig:: 'jcu-ldap' in metadata['project']['auth']
 
     JCU Authentication
     ~~~~~~~~~~~~~~~~~~
 
-    Since authentication is provided by your existing JCU credentials, you
-    should contact the `IT Helpdesk <https://jcueduau.service-now.com/>`_
-    with your queries or password reset requests.
+    Since authentication is provided with your existing JCU credentials, you
+    must contact the `IT Helpdesk <https://jcueduau.service-now.com/>`_
+    with queries or password reset requests.
 
 
-.. ifconfig:: metadata['project']['auth'] == 'aaf'
+.. ifconfig:: 'aaf' in metadata['project']['auth']
 
     Insitutional Authentication
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -214,15 +257,27 @@ If you cannot log in
     insitution's website.
 
 
-Local Login
-~~~~~~~~~~~
+.. ifconfig:: 'local' in metadata['project']['auth']
 
-If you are unable to login to the portal, you may have forgotten your password.
-If you believe this is the case, click onto the ``Local Login`` link, and
-then click on ``Forgot your password?`` and follow the steps.
+    Local Login
+    ~~~~~~~~~~~
 
-If you still can't log in, or have forgotten your username, then contact
-the site administration for assistance.
+    If you are unable to login to the portal, you may have forgotten your password.
+    If you believe this is the case, click onto the ``Local Login`` link, and
+    then click on ``Forgot your password?`` and follow the steps.
+
+    If you still can't log in, or have forgotten your username, then contact
+    the site administration for assistance.
+
+
+.. ifconfig:: 'self-registration' in metadata['project']['auth']
+
+    .. _registering:
+
+    Registering for a local account
+    ===============================
+
+    Details coming shortly.
 
 
 Permissions and access

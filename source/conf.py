@@ -37,7 +37,7 @@ metadata = {
         'server-scheme': 'https',
         'server-host': 'eresearch.jcu.edu.au',
         'server-port': 443,
-        'auth': 'jcu-ldap',
+        'auth': ['jcu-ldap'],
         'security': 'mixed'
     }
 }
