@@ -23,7 +23,7 @@ overview, and information about site management.
    content-management
    content-special
    layout-and-customisation
-   interacting-with-content
+   interacting
    faq
    glossary
 
