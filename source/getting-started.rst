@@ -50,8 +50,8 @@ must have been granted suitable permissions.
 
    * |project-name| allows both insitutional users and local users to login to
      the same site.  Take care when selecting your login method: if you have a
-     separate username and password for eSpaces only (called a *local account*),
-     then use the ``Local Login``.
+     separate username and password for |project-name| only (called a *local
+     account*), then use the ``Local Login``.
 
 
 .. ifconfig:: 'aaf' in metadata['project']['auth']
