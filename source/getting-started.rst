@@ -22,7 +22,7 @@ The types of logins available on |project-name| are:
    * *Australian university/research institution accounts*.  See
      :ref:`aaf-login`.
 
-.. ifconfig:: 'aaf' in metadata['project']['auth']
+.. ifconfig:: 'tuakiri' in metadata['project']['auth']
 
    * *New Zealand university/research institution accounts*.  See
      :ref:`tuakiri-login`.
