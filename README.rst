@@ -3,6 +3,9 @@ User documentation
 
 End-user documentation for eResearch Centre systems powered by Plone.
 
+Documentation is available at http://eresearch.rtfd.org, produced after each
+push to this repository.
+
 About this documentation
 ------------------------
 
