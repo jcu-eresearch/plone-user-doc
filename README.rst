@@ -1,6 +1,18 @@
 User documentation
 ==================
 
+End-user documentation for eResearch Centre systems powered by Plone.
+
+About this documentation
+------------------------
+
+* Powered by Sphinx
+* Configuration-based documentation: an example of using conditional statments
+  to build up documentation.  Just look for ``ifconfig`` sections and the
+  example config in ``source/conf.py``.
+* Branchable for different projects: just customise the screenshots and
+  ``source/conf.py`` settings.
+
 Install
 -------
 
