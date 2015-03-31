@@ -10,6 +10,9 @@ About this documentation
 * Configuration-based documentation: an example of using conditional statments
   to build up documentation.  Just look for ``ifconfig`` sections and the
   example config in ``source/conf.py``.
+* Project-wide substitutions: set key aspects to the documentation like
+  project name and URL in one location (``source/conf.py``) and use the
+  ``|substitution|`` markup accordingly in any document.
 * Branchable for different projects: just customise the screenshots and
   ``source/conf.py`` settings.
 
