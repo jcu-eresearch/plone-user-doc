@@ -29,7 +29,7 @@ The types of logins available on |project-name| are:
 
 .. ifconfig:: 'local' in metadata['project']['auth']
 
-   * *Local accounts*. See :ref:`local-login`.These are
+   * *Local accounts*. See :ref:`local-login`. These are
      accounts that are specific to |project-name|.
 
      .. ifconfig:: 'self-registration' in metadata['project']['auth']
