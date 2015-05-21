@@ -6,8 +6,18 @@ Glossary
 
    Australian Access Federation (AAF)
       The independent organisation that provides shared authentication
-      infrastructure for Australian higher-education and research institutions.
-      See http://aaf.edu.au for more information.
+      infrastructure for Australian higher-education and research
+      institutions.  See https://aaf.edu.au for more information.
+
+   Tuakiri
+      The organisation that provides shared authentication infrastructure for
+      New Zealand higher-education and research institutions.  See
+      https://tuakiri.ac.nz for more information.
+
+   Shibboleth
+      A technology that facilitates :term:`Single Sign On (SSO)`. Shibboleth
+      is widely implemented across the world's education and research access
+      federations.
 
    Content Management System (CMS)
       An online platform used for the management of web-based content,

@@ -8,24 +8,31 @@ Logging in
 
 In order to get started with |project-name|, the first step is to access the
 site and log in. To perform any content management tasks, such as creating
-pages, editing items, or accessing secured content, you also
-must have been granted suitable permissions.
+pages, editing items, or accessing secured content, you also require suitable
+permission to be granted to your user account.
 
-The types of logins available on |project-name| are:
+.. _federations:
+
+Methods for logging in to |project-name| are:
 
 .. ifconfig:: 'jcu-ldap' in metadata['project']['auth']
 
    * *JCU computer accounts*. See :ref:`jcu-login`.
 
-.. ifconfig:: 'aaf' in metadata['project']['auth']
+.. ifconfig:: 'shibboleth' in metadata['project']['auth']
 
-   * *Australian university/research institution accounts*.  See
-     :ref:`aaf-login`.
+   * *University or research institution accounts*.  See
+     :ref:`shibboleth-login`. |project-name| supports accounts from:
 
-.. ifconfig:: 'tuakiri' in metadata['project']['auth']
+     .. ifconfig:: 'aaf' in metadata['project']['auth']
 
-   * *New Zealand university/research institution accounts*.  See
-     :ref:`tuakiri-login`.
+        * Australian universities and research organisations that
+          are part of the :term:`Australian Access Federation (AAF)`.
+
+     .. ifconfig:: 'tuakiri' in metadata['project']['auth']
+
+        * New Zealand universities and research organisations that are part of
+          :term:`Tuakiri`, New Zealand Access Federation.
 
 .. ifconfig:: 'local' in metadata['project']['auth']
 
@@ -34,7 +41,7 @@ The types of logins available on |project-name| are:
 
      .. ifconfig:: 'self-registration' in metadata['project']['auth']
 
-        You may self-register for an account; see :ref:`registering`.
+        You may also self-register for an account; see :ref:`registering`.
 
 
 .. ifconfig:: len(metadata['project']['auth']) > 1
@@ -48,18 +55,18 @@ The types of logins available on |project-name| are:
 
 
 .. Types of login for this project
-.. ifconfig:: 'aaf' in metadata['project']['auth']
+.. ifconfig:: 'shibboleth' in metadata['project']['auth']
 
-   .. _aaf-login:
+   .. _shibboleth-login:
 
-   Logging in with an Australian institutional account
-   ---------------------------------------------------
+   Logging in with an Institutional account
+   ----------------------------------------
 
-   |project-name| utilises institutional :term:`Single Sign On (SSO)`, powered
-   by the :term:`Australian Access Federation (AAF)`.  This allows login with
-   an existing university or research organisation account.  In order to share
-   content with colleagues, each user must log in to |project-name| at least
-   once before they can be found.
+   |project-name| utilises :term:`Single Sign On (SSO)` which allows users to
+   login with an existing university or research organisation account.  This
+   technology is known as federated login via :term:`Shibboleth`. In order to
+   share content with other users, each user must log in to |project-name| at
+   least once before they can be found.
 
    .. important::
 
@@ -76,11 +83,10 @@ The types of logins available on |project-name| are:
          :align: center
          :scale: 75%
 
-   #. Choose your login method.  Australian institutional login is already
-      pre-selected for you.
+   #. Choose your login method; institutional login is already pre-selected.
 
-      .. image:: /images/login_aaf.png
-         :alt: Australian Institutional login
+      .. image:: /images/login_shibboleth_eds.png
+         :alt: Institutional login
          :align: center
          :scale: 50%
 
@@ -89,8 +95,8 @@ The types of logins available on |project-name| are:
       .. note::
 
          If your institution or organisation doesn't appear in the list, you
-         contact your IT support staff about whether you are part of the
-         :term:`Australian Access Federation (AAF)` or can join.
+         contact your local IT support staff about whether you are part of one
+         of the supported `federations`_.
 
    #. Click the ``Login`` button.
 
@@ -100,17 +106,16 @@ The types of logins available on |project-name| are:
       .. note::
 
          This is an example of the James Cook University login page. Your
-         institution's page will look different and may behave in a slightly
-         different manner.  Follow your own organisation's login steps to
-         proceed.
+         institution's page will look different and may behave differently.
+         Follow your own organisation's login steps to proceed.
 
       .. image:: /images/idp_jcu.png
          :alt: JCU Identity Provider
          :align: center
-         :scale: 50%
+         :scale: 30%
 
-   #. You may be prompted to release certain details about yourself from your
-      organisation to |project-name|, including name, email address, and
+   #. You may be prompted to release certain details about your account from
+      your organisation to |project-name|, including name, email address, and
       other particulars.  You must accept this to continue so that you can be
       identified within our system.
 
