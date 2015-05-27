@@ -31,7 +31,22 @@ Portlets applied to a given folder (or the top-level of the site) will, by
 default, be shown for all content items beneath that folder.  For example, if a
 navigation portlet is configured on a folder called ``News``, then all news
 items inside that folder will also see the same portlet.  It is possible to
-override this behaviour on sub-folders or individual content items, however.
+override this behaviour on sub-folders or individual content items by visiting
+``Manage portlets`` on any content item (or folder) and choosing to block
+parent portlets.
+
+.. note::
+
+   Take care if you're adjusting portlets for a homepage in a folder.  You
+   have the ability to configure portlets for *just* the homepage, meaning a
+   portlet will only show on that specific page, or for the entire folder (or
+   site), meaning the portlets will be shown on all pages inside that folder.
+
+   .. image:: /images/portlet_inherit.png
+      :alt: Portlet inheritance
+      :align: center
+
+   If you see an info box like the one above, take note.
 
 
 Permission to change portlets
