@@ -34,17 +34,17 @@ Access types
 ==========           ========================================================
 Access               Description
 ==========           ========================================================
-Can add              Allows new content objects to be created in this folder,
-                     granting access to the ``Add new`` menu. This has no
-                     effect on non-folder content. Corresponds to the
-                     ``Contributor`` role.
+Can add              Allows new files to be uploaded or content items to be
+                     created in this folder, granting access to the ``Add new``
+                     menu. This has no effect on non-folder content.
+                     Corresponds to the ``Contributor`` role.
 Can edit             Allows editing of existing content, granting access to
                      the ``Edit`` tab against content. Corresponds to the
                      ``Editor`` role.
 Can review           Allows the user to publish and review content, granting
                      access to extra controls in the ``State`` menu.
                      Corresponds to the ``Reviewer`` role.
-Can view             Allows the user to see private content. Use this
+Can view             Allows the user to see private or non-shared content. Use this
                      permission to grant access to specific folders and
                      content areas on a portal. Corresponds to the ``Viewer``
                      role.
