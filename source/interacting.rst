@@ -248,7 +248,7 @@ The recommended client is Cyberduck.
    #. *Path*: The path entered here will be the starting folder that you
       connect to.
 
-      For eGRS, this should be ``/Members/[your JCU ID]`` to allow you to
+      For eGRS, this should be ``/dav/Members/[your JCU ID]`` to allow you to
       connect to your members area directly.
 
 #. Click onto ``Connect`` and you will be connected to |project-name|.
