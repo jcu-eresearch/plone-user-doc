@@ -246,10 +246,10 @@ The recommended client is Cyberduck.
    #. *Username*: see :ref:`webdav-username-password`.
    #. *Password*: see :ref:`webdav-username-password`.
    #. *Path*: The path entered here will be the starting folder that you
-      connect to. For example, to connect to the top-level of the site,
-      leave this empty; or, to connect to a specific folder or sub-site,
-      enter ``/path/to/folder``, adjusting this example to fit your given
-      URL.
+      connect to.
+
+      For eGRS, this should be ``/Members/[your JCU ID]`` to allow you to
+      connect to your members area directly.
 
 #. Click onto ``Connect`` and you will be connected to |project-name|.
 
