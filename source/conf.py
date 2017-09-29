@@ -30,12 +30,12 @@ def setup(app):
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 metadata = {
     'project': {
-        'name': u'eResearch Web Services',
-        'shortname': 'eResearchWebServicesUserDocumentation',
-        'team': u'eResearch Centre, James Cook University',
-        'url': 'https://eresearch.jcu.edu.au',
+        'name': u'eGRS',
+        'shortname': 'eGRSUserDocumentation',
+        'team': u'James Cook University',
+        'url': 'https://egrs.jcu.edu.au',
         'server-scheme': 'https',
-        'server-host': 'eresearch.jcu.edu.au',
+        'server-host': 'egrs.jcu.edu.au',
         'server-port': 443,
         'auth': ['jcu-ldap'],
         'security': 'mixed'
