@@ -1,5 +1,5 @@
-User documentation
-==================
+eGRS User documentation
+=======================
 
 End-user documentation for eResearch Centre systems powered by Plone.
 
